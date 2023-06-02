@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "the_scorched_wastelands:blocks/rusty_scafolding",
+    "particle": "the_scorched_wastelands:blocks/rusty_scafolding"
+  },
+  "render_type": "cutout"
+}

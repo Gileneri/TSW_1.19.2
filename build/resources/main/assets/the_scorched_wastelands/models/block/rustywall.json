@@ -1,0 +1,8 @@
+{
+  "parent": "block/template_wall_side",
+  "textures": {
+    "wall": "the_scorched_wastelands:blocks/rusty_metal_plaques",
+    "particle": "the_scorched_wastelands:blocks/rusty_metal_plaques"
+  },
+  "render_type": "solid"
+}

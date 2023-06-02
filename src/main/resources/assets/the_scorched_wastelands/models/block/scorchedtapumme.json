@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "the_scorched_wastelands:blocks/scorched_tapumme",
+    "particle": "the_scorched_wastelands:blocks/scorched_tapumme"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "the_scorched_wastelands:dustywood",
+    "the_scorched_wastelands:poletop",
+    "the_scorched_wastelands:utilitypole",
+    "the_scorched_wastelands:sign_pole",
+    "the_scorched_wastelands:sign_top",
+    "the_scorched_wastelands:hangingwires",
+    "the_scorched_wastelands:brokentable",
+    "the_scorched_wastelands:scorchedhazardtape",
+    "the_scorched_wastelands:scorchedtapumme",
+    "the_scorched_wastelands:oldglasspane",
+    "the_scorched_wastelands:oldglass",
+    "the_scorched_wastelands:darkglass",
+    "the_scorched_wastelands:darkglasspane",
+    "the_scorched_wastelands:rustedchainlinkfence",
+    "the_scorched_wastelands:brokentrafficlights",
+    "the_scorched_wastelands:brokenwoodenchair"
+  ]
+}

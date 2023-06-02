@@ -1,0 +1,141 @@
+
+/*
+ *    MCreator note: This file will be REGENERATED on each build.
+ */
+package net.mcreator.thescorchedwastelands.init;
+
+import net.minecraftforge.registries.RegistryObject;
+import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.registries.DeferredRegister;
+
+import net.minecraft.world.level.block.Block;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.BlockItem;
+
+import net.mcreator.thescorchedwastelands.item.TestdimensionItem;
+import net.mcreator.thescorchedwastelands.item.HeavyDullBladeItem;
+import net.mcreator.thescorchedwastelands.item.CoolingeppItem;
+import net.mcreator.thescorchedwastelands.TheScorchedWastelandsMod;
+
+public class TheScorchedWastelandsModItems {
+	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, TheScorchedWastelandsMod.MODID);
+	public static final RegistryObject<Item> JUNKPILE = block(TheScorchedWastelandsModBlocks.JUNKPILE, TheScorchedWastelandsModTabs.TAB_SCORCHED_WASTELANDS);
+	public static final RegistryObject<Item> SCORCHEDJUNK = block(TheScorchedWastelandsModBlocks.SCORCHEDJUNK, TheScorchedWastelandsModTabs.TAB_WRECKED_OBJECTS);
+	public static final RegistryObject<Item> SCORCHED_DEBRIS = block(TheScorchedWastelandsModBlocks.SCORCHED_DEBRIS, TheScorchedWastelandsModTabs.TAB_WRECKED_OBJECTS);
+	public static final RegistryObject<Item> SCORCHED_BUSH = block(TheScorchedWastelandsModBlocks.SCORCHED_BUSH, TheScorchedWastelandsModTabs.TAB_WRECKED_OBJECTS);
+	public static final RegistryObject<Item> RED_DRY_SAND = block(TheScorchedWastelandsModBlocks.RED_DRY_SAND, TheScorchedWastelandsModTabs.TAB_SCORCHED_WASTELANDS);
+	public static final RegistryObject<Item> DRYROCK = block(TheScorchedWastelandsModBlocks.DRYROCK, TheScorchedWastelandsModTabs.TAB_SCORCHED_WASTELANDS);
+	public static final RegistryObject<Item> DUSTYWOOD = block(TheScorchedWastelandsModBlocks.DUSTYWOOD, TheScorchedWastelandsModTabs.TAB_WRECKED_OBJECTS);
+	public static final RegistryObject<Item> POLETOP = block(TheScorchedWastelandsModBlocks.POLETOP, TheScorchedWastelandsModTabs.TAB_WRECKED_OBJECTS);
+	public static final RegistryObject<Item> UTILITYPOLE = block(TheScorchedWastelandsModBlocks.UTILITYPOLE, TheScorchedWastelandsModTabs.TAB_WRECKED_OBJECTS);
+	public static final RegistryObject<Item> DRYDIRT = block(TheScorchedWastelandsModBlocks.DRYDIRT, TheScorchedWastelandsModTabs.TAB_SCORCHED_WASTELANDS);
+	public static final RegistryObject<Item> OLDDEBRIS = block(TheScorchedWastelandsModBlocks.OLDDEBRIS, TheScorchedWastelandsModTabs.TAB_SCORCHED_WASTELANDS);
+	public static final RegistryObject<Item> RUSTEDCRATE = block(TheScorchedWastelandsModBlocks.RUSTEDCRATE, TheScorchedWastelandsModTabs.TAB_WRECKED_OBJECTS);
+	public static final RegistryObject<Item> SMALLRUSTEDCRATE = block(TheScorchedWastelandsModBlocks.SMALLRUSTEDCRATE, TheScorchedWastelandsModTabs.TAB_WRECKED_OBJECTS);
+	public static final RegistryObject<Item> DEBRISSLAB = block(TheScorchedWastelandsModBlocks.DEBRISSLAB, TheScorchedWastelandsModTabs.TAB_SCORCHED_WASTELANDS);
+	public static final RegistryObject<Item> RUSTYMETAL = block(TheScorchedWastelandsModBlocks.RUSTYMETAL, TheScorchedWastelandsModTabs.TAB_SCORCHED_WASTELANDS);
+	public static final RegistryObject<Item> PLATEDMETAL = block(TheScorchedWastelandsModBlocks.PLATEDMETAL, TheScorchedWastelandsModTabs.TAB_SCORCHED_WASTELANDS);
+	public static final RegistryObject<Item> COPPERREBBAR = block(TheScorchedWastelandsModBlocks.COPPERREBBAR, TheScorchedWastelandsModTabs.TAB_SCORCHED_WASTELANDS);
+	public static final RegistryObject<Item> PLATEDMETALSLAB = block(TheScorchedWastelandsModBlocks.PLATEDMETALSLAB, TheScorchedWastelandsModTabs.TAB_SCORCHED_WASTELANDS);
+	public static final RegistryObject<Item> RUSTYMETALSLAB = block(TheScorchedWastelandsModBlocks.RUSTYMETALSLAB, TheScorchedWastelandsModTabs.TAB_SCORCHED_WASTELANDS);
+	public static final RegistryObject<Item> TESTDIMENSION = REGISTRY.register("testdimension", () -> new TestdimensionItem());
+	public static final RegistryObject<Item> IRONFRAMES = block(TheScorchedWastelandsModBlocks.IRONFRAMES, TheScorchedWastelandsModTabs.TAB_SCORCHED_WASTELANDS);
+	public static final RegistryObject<Item> SIGN_POLE = block(TheScorchedWastelandsModBlocks.SIGN_POLE, TheScorchedWastelandsModTabs.TAB_WRECKED_OBJECTS);
+	public static final RegistryObject<Item> SIGN_TOP = block(TheScorchedWastelandsModBlocks.SIGN_TOP, TheScorchedWastelandsModTabs.TAB_WRECKED_OBJECTS);
+	public static final RegistryObject<Item> BAR_SUPPORT = block(TheScorchedWastelandsModBlocks.BAR_SUPPORT, TheScorchedWastelandsModTabs.TAB_SCORCHED_WASTELANDS);
+	public static final RegistryObject<Item> SCORCHED_BENCH = block(TheScorchedWastelandsModBlocks.SCORCHED_BENCH, TheScorchedWastelandsModTabs.TAB_WRECKED_OBJECTS);
+	public static final RegistryObject<Item> DUMPSTER = block(TheScorchedWastelandsModBlocks.DUMPSTER, TheScorchedWastelandsModTabs.TAB_WRECKED_OBJECTS);
+	public static final RegistryObject<Item> BROCKENELETRICBOX = block(TheScorchedWastelandsModBlocks.BROCKENELETRICBOX, TheScorchedWastelandsModTabs.TAB_WRECKED_OBJECTS);
+	public static final RegistryObject<Item> SUPPLIES_SHELF = block(TheScorchedWastelandsModBlocks.SUPPLIES_SHELF, TheScorchedWastelandsModTabs.TAB_WRECKED_OBJECTS);
+	public static final RegistryObject<Item> WRECKEDVENT = block(TheScorchedWastelandsModBlocks.WRECKEDVENT, TheScorchedWastelandsModTabs.TAB_WRECKED_OBJECTS);
+	public static final RegistryObject<Item> WRECKEDVENDINGMACHINE = block(TheScorchedWastelandsModBlocks.WRECKEDVENDINGMACHINE, TheScorchedWastelandsModTabs.TAB_WRECKED_OBJECTS);
+	public static final RegistryObject<Item> WRECKED_TV = block(TheScorchedWastelandsModBlocks.WRECKED_TV, TheScorchedWastelandsModTabs.TAB_WRECKED_OBJECTS);
+	public static final RegistryObject<Item> HEAVY_DULL_BLADE = REGISTRY.register("heavy_dull_blade", () -> new HeavyDullBladeItem());
+	public static final RegistryObject<Item> RUSTED_TABLE = block(TheScorchedWastelandsModBlocks.RUSTED_TABLE, TheScorchedWastelandsModTabs.TAB_WRECKED_OBJECTS);
+	public static final RegistryObject<Item> HANGINGWIRES = block(TheScorchedWastelandsModBlocks.HANGINGWIRES, TheScorchedWastelandsModTabs.TAB_WRECKED_OBJECTS);
+	public static final RegistryObject<Item> LITTLETABLE = block(TheScorchedWastelandsModBlocks.LITTLETABLE, TheScorchedWastelandsModTabs.TAB_WRECKED_OBJECTS);
+	public static final RegistryObject<Item> SMASHEDSCREEN = block(TheScorchedWastelandsModBlocks.SMASHEDSCREEN, TheScorchedWastelandsModTabs.TAB_WRECKED_OBJECTS);
+	public static final RegistryObject<Item> RUSTY_LOCKER = block(TheScorchedWastelandsModBlocks.RUSTY_LOCKER, TheScorchedWastelandsModTabs.TAB_WRECKED_OBJECTS);
+	public static final RegistryObject<Item> RUSTED_BROKEN_FAN = block(TheScorchedWastelandsModBlocks.RUSTED_BROKEN_FAN, TheScorchedWastelandsModTabs.TAB_WRECKED_OBJECTS);
+	public static final RegistryObject<Item> WRECKEDCRATE = block(TheScorchedWastelandsModBlocks.WRECKEDCRATE, TheScorchedWastelandsModTabs.TAB_WRECKED_OBJECTS);
+	public static final RegistryObject<Item> BROKENTERMINAL = block(TheScorchedWastelandsModBlocks.BROKENTERMINAL, TheScorchedWastelandsModTabs.TAB_WRECKED_OBJECTS);
+	public static final RegistryObject<Item> WRECKEDCONSOLE = block(TheScorchedWastelandsModBlocks.WRECKEDCONSOLE, TheScorchedWastelandsModTabs.TAB_WRECKED_OBJECTS);
+	public static final RegistryObject<Item> WRECKEDCONTROLPANEL = block(TheScorchedWastelandsModBlocks.WRECKEDCONTROLPANEL, TheScorchedWastelandsModTabs.TAB_WRECKED_OBJECTS);
+	public static final RegistryObject<Item> RUSTEDCHAIR = block(TheScorchedWastelandsModBlocks.RUSTEDCHAIR, TheScorchedWastelandsModTabs.TAB_WRECKED_OBJECTS);
+	public static final RegistryObject<Item> RUSTEDBOILER = block(TheScorchedWastelandsModBlocks.RUSTEDBOILER, TheScorchedWastelandsModTabs.TAB_WRECKED_OBJECTS);
+	public static final RegistryObject<Item> BROKENTABLE = block(TheScorchedWastelandsModBlocks.BROKENTABLE, TheScorchedWastelandsModTabs.TAB_WRECKED_OBJECTS);
+	public static final RegistryObject<Item> DECAYEDSHELF = block(TheScorchedWastelandsModBlocks.DECAYEDSHELF, TheScorchedWastelandsModTabs.TAB_WRECKED_OBJECTS);
+	public static final RegistryObject<Item> BROKENREGISTER = block(TheScorchedWastelandsModBlocks.BROKENREGISTER, TheScorchedWastelandsModTabs.TAB_WRECKED_OBJECTS);
+	public static final RegistryObject<Item> GRAYPLATEDMETAL = block(TheScorchedWastelandsModBlocks.GRAYPLATEDMETAL, TheScorchedWastelandsModTabs.TAB_SCORCHED_WASTELANDS);
+	public static final RegistryObject<Item> CHARREDMETALPLATING = block(TheScorchedWastelandsModBlocks.CHARREDMETALPLATING, TheScorchedWastelandsModTabs.TAB_SCORCHED_WASTELANDS);
+	public static final RegistryObject<Item> DUSTYGRATE = block(TheScorchedWastelandsModBlocks.DUSTYGRATE, TheScorchedWastelandsModTabs.TAB_SCORCHED_WASTELANDS);
+	public static final RegistryObject<Item> SCORCHEDPLATING = block(TheScorchedWastelandsModBlocks.SCORCHEDPLATING, TheScorchedWastelandsModTabs.TAB_SCORCHED_WASTELANDS);
+	public static final RegistryObject<Item> RUSTYSCAFOLDING = block(TheScorchedWastelandsModBlocks.RUSTYSCAFOLDING, TheScorchedWastelandsModTabs.TAB_SCORCHED_WASTELANDS);
+	public static final RegistryObject<Item> DUSTYCIRCUIT = block(TheScorchedWastelandsModBlocks.DUSTYCIRCUIT, TheScorchedWastelandsModTabs.TAB_SCORCHED_WASTELANDS);
+	public static final RegistryObject<Item> RUSTYBOLTEDPLATES = block(TheScorchedWastelandsModBlocks.RUSTYBOLTEDPLATES, TheScorchedWastelandsModTabs.TAB_SCORCHED_WASTELANDS);
+	public static final RegistryObject<Item> RUSTEDBARS = block(TheScorchedWastelandsModBlocks.RUSTEDBARS, TheScorchedWastelandsModTabs.TAB_SCORCHED_WASTELANDS);
+	public static final RegistryObject<Item> RUSTEDPLATES = block(TheScorchedWastelandsModBlocks.RUSTEDPLATES, TheScorchedWastelandsModTabs.TAB_SCORCHED_WASTELANDS);
+	public static final RegistryObject<Item> METALSHEETS = block(TheScorchedWastelandsModBlocks.METALSHEETS, TheScorchedWastelandsModTabs.TAB_SCORCHED_WASTELANDS);
+	public static final RegistryObject<Item> SCORCHEDHAZARDTAPE = block(TheScorchedWastelandsModBlocks.SCORCHEDHAZARDTAPE, TheScorchedWastelandsModTabs.TAB_SCORCHED_WASTELANDS);
+	public static final RegistryObject<Item> SCORCHEDTAPUMME = block(TheScorchedWastelandsModBlocks.SCORCHEDTAPUMME, TheScorchedWastelandsModTabs.TAB_SCORCHED_WASTELANDS);
+	public static final RegistryObject<Item> MAKESHIFTMETALSHEETS = block(TheScorchedWastelandsModBlocks.MAKESHIFTMETALSHEETS, TheScorchedWastelandsModTabs.TAB_SCORCHED_WASTELANDS);
+	public static final RegistryObject<Item> METALICCOLUMN = block(TheScorchedWastelandsModBlocks.METALICCOLUMN, TheScorchedWastelandsModTabs.TAB_SCORCHED_WASTELANDS);
+	public static final RegistryObject<Item> SCORCHEDCARGOPLATING = block(TheScorchedWastelandsModBlocks.SCORCHEDCARGOPLATING, TheScorchedWastelandsModTabs.TAB_SCORCHED_WASTELANDS);
+	public static final RegistryObject<Item> SLOPEDRUSTPANEL = block(TheScorchedWastelandsModBlocks.SLOPEDRUSTPANEL, TheScorchedWastelandsModTabs.TAB_SCORCHED_WASTELANDS);
+	public static final RegistryObject<Item> RUSTYTECH = block(TheScorchedWastelandsModBlocks.RUSTYTECH, TheScorchedWastelandsModTabs.TAB_SCORCHED_WASTELANDS);
+	public static final RegistryObject<Item> METALPLAQUES = block(TheScorchedWastelandsModBlocks.METALPLAQUES, TheScorchedWastelandsModTabs.TAB_SCORCHED_WASTELANDS);
+	public static final RegistryObject<Item> RUSTYMETALPLAQUES = block(TheScorchedWastelandsModBlocks.RUSTYMETALPLAQUES, TheScorchedWastelandsModTabs.TAB_SCORCHED_WASTELANDS);
+	public static final RegistryObject<Item> METALPLAQUESLAB = block(TheScorchedWastelandsModBlocks.METALPLAQUESLAB, TheScorchedWastelandsModTabs.TAB_SCORCHED_WASTELANDS);
+	public static final RegistryObject<Item> RUSTYMETALPLAQUESLAB = block(TheScorchedWastelandsModBlocks.RUSTYMETALPLAQUESLAB, TheScorchedWastelandsModTabs.TAB_SCORCHED_WASTELANDS);
+	public static final RegistryObject<Item> METALPLAQUESTAIRS = block(TheScorchedWastelandsModBlocks.METALPLAQUESTAIRS, TheScorchedWastelandsModTabs.TAB_SCORCHED_WASTELANDS);
+	public static final RegistryObject<Item> RUSTYMETALPLAQUESTAIRS = block(TheScorchedWastelandsModBlocks.RUSTYMETALPLAQUESTAIRS, TheScorchedWastelandsModTabs.TAB_SCORCHED_WASTELANDS);
+	public static final RegistryObject<Item> RUSTYWALL = block(TheScorchedWastelandsModBlocks.RUSTYWALL, TheScorchedWastelandsModTabs.TAB_SCORCHED_WASTELANDS);
+	public static final RegistryObject<Item> OLDGLASSPANE = block(TheScorchedWastelandsModBlocks.OLDGLASSPANE, TheScorchedWastelandsModTabs.TAB_SCORCHED_WASTELANDS);
+	public static final RegistryObject<Item> OLDGLASS = block(TheScorchedWastelandsModBlocks.OLDGLASS, TheScorchedWastelandsModTabs.TAB_SCORCHED_WASTELANDS);
+	public static final RegistryObject<Item> DARKGLASS = block(TheScorchedWastelandsModBlocks.DARKGLASS, TheScorchedWastelandsModTabs.TAB_SCORCHED_WASTELANDS);
+	public static final RegistryObject<Item> DARKGLASSPANE = block(TheScorchedWastelandsModBlocks.DARKGLASSPANE, TheScorchedWastelandsModTabs.TAB_SCORCHED_WASTELANDS);
+	public static final RegistryObject<Item> CHARREDMETALPLATES = block(TheScorchedWastelandsModBlocks.CHARREDMETALPLATES, TheScorchedWastelandsModTabs.TAB_SCORCHED_WASTELANDS);
+	public static final RegistryObject<Item> CHAINLINKFENCE = block(TheScorchedWastelandsModBlocks.CHAINLINKFENCE, TheScorchedWastelandsModTabs.TAB_SCORCHED_WASTELANDS);
+	public static final RegistryObject<Item> RUSTEDCHAINLINKFENCE = block(TheScorchedWastelandsModBlocks.RUSTEDCHAINLINKFENCE, TheScorchedWastelandsModTabs.TAB_SCORCHED_WASTELANDS);
+	public static final RegistryObject<Item> ERODEDMETALPANELS = block(TheScorchedWastelandsModBlocks.ERODEDMETALPANELS, TheScorchedWastelandsModTabs.TAB_SCORCHED_WASTELANDS);
+	public static final RegistryObject<Item> BROKENFRIDGE = block(TheScorchedWastelandsModBlocks.BROKENFRIDGE, TheScorchedWastelandsModTabs.TAB_WRECKED_OBJECTS);
+	public static final RegistryObject<Item> DUSTYWIREBOX = block(TheScorchedWastelandsModBlocks.DUSTYWIREBOX, TheScorchedWastelandsModTabs.TAB_WRECKED_OBJECTS);
+	public static final RegistryObject<Item> BROKENSMALLDRAWER = block(TheScorchedWastelandsModBlocks.BROKENSMALLDRAWER, TheScorchedWastelandsModTabs.TAB_WRECKED_OBJECTS);
+	public static final RegistryObject<Item> BROKENTELEVISIONSET = block(TheScorchedWastelandsModBlocks.BROKENTELEVISIONSET, TheScorchedWastelandsModTabs.TAB_WRECKED_OBJECTS);
+	public static final RegistryObject<Item> BIGBROKENDRAWER = block(TheScorchedWastelandsModBlocks.BIGBROKENDRAWER, TheScorchedWastelandsModTabs.TAB_WRECKED_OBJECTS);
+	public static final RegistryObject<Item> BROKENCOUNTER = block(TheScorchedWastelandsModBlocks.BROKENCOUNTER, TheScorchedWastelandsModTabs.TAB_WRECKED_OBJECTS);
+	public static final RegistryObject<Item> BROKENTRAFFICPOLE = block(TheScorchedWastelandsModBlocks.BROKENTRAFFICPOLE, TheScorchedWastelandsModTabs.TAB_WRECKED_OBJECTS);
+	public static final RegistryObject<Item> BROKENTRAFFICLIGHTS = block(TheScorchedWastelandsModBlocks.BROKENTRAFFICLIGHTS, TheScorchedWastelandsModTabs.TAB_WRECKED_OBJECTS);
+	public static final RegistryObject<Item> SMALLVENT = block(TheScorchedWastelandsModBlocks.SMALLVENT, TheScorchedWastelandsModTabs.TAB_WRECKED_OBJECTS);
+	public static final RegistryObject<Item> HORIZONTALWRECKEDVENT = block(TheScorchedWastelandsModBlocks.HORIZONTALWRECKEDVENT, TheScorchedWastelandsModTabs.TAB_WRECKED_OBJECTS);
+	public static final RegistryObject<Item> DIAGONALWRECKEDVENT = block(TheScorchedWastelandsModBlocks.DIAGONALWRECKEDVENT, TheScorchedWastelandsModTabs.TAB_WRECKED_OBJECTS);
+	public static final RegistryObject<Item> TOXICWASTEBARREL = block(TheScorchedWastelandsModBlocks.TOXICWASTEBARREL, TheScorchedWastelandsModTabs.TAB_WRECKED_OBJECTS);
+	public static final RegistryObject<Item> TRASHCAN = block(TheScorchedWastelandsModBlocks.TRASHCAN, TheScorchedWastelandsModTabs.TAB_WRECKED_OBJECTS);
+	public static final RegistryObject<Item> OLDBED = block(TheScorchedWastelandsModBlocks.OLDBED, TheScorchedWastelandsModTabs.TAB_WRECKED_OBJECTS);
+	public static final RegistryObject<Item> RUSTYCABINET = block(TheScorchedWastelandsModBlocks.RUSTYCABINET, TheScorchedWastelandsModTabs.TAB_WRECKED_OBJECTS);
+	public static final RegistryObject<Item> RUSTYDOUBLECABINET = block(TheScorchedWastelandsModBlocks.RUSTYDOUBLECABINET, TheScorchedWastelandsModTabs.TAB_WRECKED_OBJECTS);
+	public static final RegistryObject<Item> RUSTEDOILBARREL = block(TheScorchedWastelandsModBlocks.RUSTEDOILBARREL, TheScorchedWastelandsModTabs.TAB_WRECKED_OBJECTS);
+	public static final RegistryObject<Item> BROKENRADIOCABINET = block(TheScorchedWastelandsModBlocks.BROKENRADIOCABINET, TheScorchedWastelandsModTabs.TAB_WRECKED_OBJECTS);
+	public static final RegistryObject<Item> RUSTEDWATERTANK = block(TheScorchedWastelandsModBlocks.RUSTEDWATERTANK, TheScorchedWastelandsModTabs.TAB_WRECKED_OBJECTS);
+	public static final RegistryObject<Item> ALSPHALFBLOCK = block(TheScorchedWastelandsModBlocks.ALSPHALFBLOCK, TheScorchedWastelandsModTabs.TAB_SCORCHED_WASTELANDS);
+	public static final RegistryObject<Item> COOLINGEPP_CHESTPLATE = REGISTRY.register("coolingepp_chestplate", () -> new CoolingeppItem.Chestplate());
+	public static final RegistryObject<Item> OLDPAPERS = block(TheScorchedWastelandsModBlocks.OLDPAPERS, null);
+	public static final RegistryObject<Item> PAPERS = block(TheScorchedWastelandsModBlocks.PAPERS, TheScorchedWastelandsModTabs.TAB_WRECKED_OBJECTS);
+	public static final RegistryObject<Item> OLDPAPERS_3 = block(TheScorchedWastelandsModBlocks.OLDPAPERS_3, null);
+	public static final RegistryObject<Item> OLDPAPERS_2 = block(TheScorchedWastelandsModBlocks.OLDPAPERS_2, null);
+	public static final RegistryObject<Item> OLDPAPERS_1 = block(TheScorchedWastelandsModBlocks.OLDPAPERS_1, null);
+	public static final RegistryObject<Item> JUNKTECH = block(TheScorchedWastelandsModBlocks.JUNKTECH, TheScorchedWastelandsModTabs.TAB_SCORCHED_WASTELANDS);
+	public static final RegistryObject<Item> ROUGHSTONE = block(TheScorchedWastelandsModBlocks.ROUGHSTONE, TheScorchedWastelandsModTabs.TAB_SCORCHED_WASTELANDS);
+	public static final RegistryObject<Item> SLEEKDARKPANEL = block(TheScorchedWastelandsModBlocks.SLEEKDARKPANEL, TheScorchedWastelandsModTabs.TAB_SCORCHED_WASTELANDS);
+	public static final RegistryObject<Item> PIPEFENCE = block(TheScorchedWastelandsModBlocks.PIPEFENCE, TheScorchedWastelandsModTabs.TAB_WRECKED_OBJECTS);
+	public static final RegistryObject<Item> BROKENWOODENCHAIR = block(TheScorchedWastelandsModBlocks.BROKENWOODENCHAIR, TheScorchedWastelandsModTabs.TAB_WRECKED_OBJECTS);
+	public static final RegistryObject<Item> WIDEVENT = block(TheScorchedWastelandsModBlocks.WIDEVENT, TheScorchedWastelandsModTabs.TAB_WRECKED_OBJECTS);
+	public static final RegistryObject<Item> RIVETLESSRUSTYPANEL = block(TheScorchedWastelandsModBlocks.RIVETLESSRUSTYPANEL, TheScorchedWastelandsModTabs.TAB_SCORCHED_WASTELANDS);
+	public static final RegistryObject<Item> RIVETRUSTYPLATING = block(TheScorchedWastelandsModBlocks.RIVETRUSTYPLATING, TheScorchedWastelandsModTabs.TAB_SCORCHED_WASTELANDS);
+	public static final RegistryObject<Item> RUSTYGRATE = block(TheScorchedWastelandsModBlocks.RUSTYGRATE, TheScorchedWastelandsModTabs.TAB_SCORCHED_WASTELANDS);
+
+	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
+		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
+	}
+}

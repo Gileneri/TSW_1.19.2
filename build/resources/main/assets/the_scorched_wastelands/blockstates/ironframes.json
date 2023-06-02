@@ -1,0 +1,12 @@
+{
+  "variants": {
+    "": [ 
+	{"model": "the_scorched_wastelands:block/ironframes"},
+	{"model": "the_scorched_wastelands:block/ironframes1"},
+	{"model": "the_scorched_wastelands:block/ironframes2"},
+	{"model": "the_scorched_wastelands:block/ironframes3"},
+	{"model": "the_scorched_wastelands:block/ironframes4"},
+	{"model": "the_scorched_wastelands:block/ironframes5"}
+    ]
+  }
+}

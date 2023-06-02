@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "the_scorched_wastelands:blocks/alsphalt_block",
+    "particle": "the_scorched_wastelands:blocks/alsphalt_block"
+  },
+  "render_type": "solid"
+}

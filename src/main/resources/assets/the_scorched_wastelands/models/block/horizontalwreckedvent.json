@@ -1,0 +1,9 @@
+{
+  "parent": "the_scorched_wastelands:custom/horizontal_wrecked_vent",
+  "textures": {
+    "all": "the_scorched_wastelands:blocks/horizontal_wrecked_vent",
+    "particle": "the_scorched_wastelands:blocks/horizontal_wrecked_vent",
+    "0": "the_scorched_wastelands:blocks/horizontal_wrecked_vent"
+  },
+  "render_type": "solid"
+}

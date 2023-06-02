@@ -1,0 +1,9 @@
+{
+  "parent": "the_scorched_wastelands:custom/fallen_table",
+  "textures": {
+    "all": "the_scorched_wastelands:blocks/broken_table",
+    "particle": "the_scorched_wastelands:blocks/broken_table",
+    "0": "the_scorched_wastelands:blocks/broken_table"
+  },
+  "render_type": "solid"
+}

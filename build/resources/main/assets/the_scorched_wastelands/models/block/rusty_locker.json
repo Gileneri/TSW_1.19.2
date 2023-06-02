@@ -1,0 +1,9 @@
+{
+  "parent": "the_scorched_wastelands:custom/rusty_locker",
+  "textures": {
+    "all": "the_scorched_wastelands:blocks/rusted_locker",
+    "particle": "the_scorched_wastelands:blocks/rusted_locker",
+    "0": "the_scorched_wastelands:blocks/rusted_locker"
+  },
+  "render_type": "solid"
+}

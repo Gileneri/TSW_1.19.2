@@ -1,0 +1,9 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "the_scorched_wastelands:blocks/rusty_metal_plaques",
+    "top": "the_scorched_wastelands:blocks/rusty_metal_plaques",
+    "side": "the_scorched_wastelands:blocks/rusty_metal_plaques"
+  },
+  "render_type": "solid"
+}

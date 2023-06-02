@@ -1,0 +1,9 @@
+{
+  "parent": "the_scorched_wastelands:custom/wide_vent",
+  "textures": {
+    "all": "the_scorched_wastelands:blocks/wide_vent",
+    "particle": "the_scorched_wastelands:blocks/wide_vent",
+    "0": "the_scorched_wastelands:blocks/wide_vent"
+  },
+  "render_type": "solid"
+}

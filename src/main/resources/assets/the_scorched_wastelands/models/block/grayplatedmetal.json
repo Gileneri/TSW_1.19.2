@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "the_scorched_wastelands:blocks/gray_plated",
+    "particle": "the_scorched_wastelands:blocks/gray_plated"
+  },
+  "render_type": "solid"
+}

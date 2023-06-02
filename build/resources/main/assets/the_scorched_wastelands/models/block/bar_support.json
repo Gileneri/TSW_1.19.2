@@ -1,0 +1,9 @@
+{
+  "parent": "the_scorched_wastelands:custom/barsupport",
+  "textures": {
+    "all": "the_scorched_wastelands:blocks/barsupport",
+    "particle": "the_scorched_wastelands:blocks/barsupport",
+    "0": "the_scorched_wastelands:blocks/barsupport"
+  },
+  "render_type": "solid"
+}

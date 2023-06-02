@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "the_scorched_wastelands:blocks/dusty_circuit",
+    "particle": "the_scorched_wastelands:blocks/dusty_circuit"
+  },
+  "render_type": "solid"
+}

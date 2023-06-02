@@ -1,0 +1,8 @@
+{
+  "parent": "block/template_wall_side",
+  "textures": {
+    "wall": "the_scorched_wastelands:blocks/scorched_wood",
+    "particle": "the_scorched_wastelands:blocks/scorched_wood"
+  },
+  "render_type": "solid"
+}

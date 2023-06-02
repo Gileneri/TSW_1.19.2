@@ -1,0 +1,9 @@
+{
+  "parent": "the_scorched_wastelands:custom/wrecked_control_panel",
+  "textures": {
+    "all": "the_scorched_wastelands:blocks/wrecked_panel",
+    "particle": "the_scorched_wastelands:blocks/wrecked_panel",
+    "0": "the_scorched_wastelands:blocks/wrecked_panel"
+  },
+  "render_type": "solid"
+}

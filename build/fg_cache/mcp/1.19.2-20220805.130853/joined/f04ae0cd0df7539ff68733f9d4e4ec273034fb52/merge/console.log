@@ -1,0 +1,6 @@
+JVM:         C:\Program Files\Pylo\MCreator\jdk\bin\java.exe
+JVM Args:    
+Run Args:    "--client", "C:\Program Files\The_Scorched_Wastelands_2023.1\build\fg_cache\mcp\1.19.2-20220805.130853\joined\f04ae0cd0df7539ff68733f9d4e4ec273034fb52\stripClient\output.jar", "--server", "C:\Program Files\The_Scorched_Wastelands_2023.1\build\fg_cache\mcp\1.19.2-20220805.130853\joined\f04ae0cd0df7539ff68733f9d4e4ec273034fb52\stripServer\output.jar", "--ann", "1.19.2", "--output", "C:\Program Files\The_Scorched_Wastelands_2023.1\build\fg_cache\mcp\1.19.2-20220805.130853\joined\f04ae0cd0df7539ff68733f9d4e4ec273034fb52\merge\output.jar", "--inject", "false"
+Classpath:   C:\Users\Usuario\.mcreator\gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\mergetool\1.1.5\mergetool-1.1.5-fatjar.jar
+Working Dir: C:\Program Files\The_Scorched_Wastelands_2023.1\build\fg_cache\mcp\1.19.2-20220805.130853\joined\f04ae0cd0df7539ff68733f9d4e4ec273034fb52\merge
+Main Class:  net.minecraftforge.mergetool.ConsoleMerger

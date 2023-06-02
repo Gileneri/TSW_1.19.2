@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "the_scorched_wastelands:blocks/base2",
+    "particle": "the_scorched_wastelands:blocks/base2"
+  },
+  "render_type": "cutout"
+}

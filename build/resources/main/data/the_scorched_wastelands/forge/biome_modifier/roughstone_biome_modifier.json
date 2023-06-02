@@ -1,0 +1,11 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "the_scorched_wastelands:farmontains",
+    "the_scorched_wastelands:testplains",
+    "the_scorched_wastelands:testplains_3",
+    "the_scorched_wastelands:testplains_2"
+  ],
+  "features": "the_scorched_wastelands:roughstone",
+  "step": "underground_ores"
+}

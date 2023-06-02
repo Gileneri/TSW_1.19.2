@@ -1,0 +1,128 @@
+{
+  "_fv": 39,
+  "_type": "biome",
+  "definition": {
+    "name": "scorcheddunes1",
+    "groundBlock": {
+      "value": "CUSTOM:RedDrySand"
+    },
+    "undergroundBlock": {
+      "value": "CUSTOM:RedDrySand"
+    },
+    "underwaterBlock": {
+      "value": "CUSTOM:Junkpile"
+    },
+    "airColor": {
+      "value": -3591664,
+      "falpha": 0.0
+    },
+    "grassColor": {
+      "value": -13290187,
+      "falpha": 0.0
+    },
+    "foliageColor": {
+      "value": -11974327,
+      "falpha": 0.0
+    },
+    "waterColor": {
+      "value": -13820928,
+      "falpha": 0.0
+    },
+    "waterFogColor": {
+      "value": -13818862,
+      "falpha": 0.0
+    },
+    "ambientSound": {
+      "value": "CUSTOM:aridloop"
+    },
+    "additionsSound": {
+      "value": ""
+    },
+    "music": {
+      "value": "CUSTOM:blizzard"
+    },
+    "moodSound": {
+      "value": ""
+    },
+    "moodSoundDelay": 6000,
+    "spawnParticles": true,
+    "particleToSpawn": {
+      "value": "ASH"
+    },
+    "particlesProbability": 0.5,
+    "rainingPossibility": 0.0,
+    "temperature": 2.0,
+    "spawnBiome": false,
+    "spawnInCaves": false,
+    "spawnBiomeNether": false,
+    "genTemperature": {
+      "min": 0.0,
+      "max": 2.0
+    },
+    "genHumidity": {
+      "min": -2.0,
+      "max": 0.0
+    },
+    "genContinentalness": {
+      "min": -0.49,
+      "max": 1.51
+    },
+    "genErosion": {
+      "min": -0.10000000000000009,
+      "max": 1.9
+    },
+    "genWeirdness": {
+      "min": -0.5161847631429723,
+      "max": 1.4838152368570277
+    },
+    "grassPerChunk": 0,
+    "seagrassPerChunk": 0,
+    "flowersPerChunk": 0,
+    "mushroomsPerChunk": 0,
+    "bigMushroomsChunk": 0,
+    "sandPatchesPerChunk": 0,
+    "gravelPatchesPerChunk": 0,
+    "reedsPerChunk": 0,
+    "cactiPerChunk": 0,
+    "treesPerChunk": 0,
+    "vanillaTreeType": "Default",
+    "treeType": 1,
+    "minHeight": 0,
+    "treeStem": {
+      "value": "Blocks.AIR"
+    },
+    "treeBranch": {
+      "value": "Blocks.AIR"
+    },
+    "treeVines": {
+      "value": "Blocks.AIR"
+    },
+    "treeFruits": {
+      "value": "Blocks.AIR"
+    },
+    "spawnStronghold": false,
+    "spawnMineshaft": false,
+    "spawnMineshaftMesa": false,
+    "spawnPillagerOutpost": false,
+    "villageType": "none",
+    "spawnWoodlandMansion": false,
+    "spawnJungleTemple": false,
+    "spawnDesertPyramid": false,
+    "spawnSwampHut": false,
+    "spawnIgloo": false,
+    "spawnOceanMonument": false,
+    "spawnShipwreck": false,
+    "spawnShipwreckBeached": false,
+    "spawnBuriedTreasure": false,
+    "oceanRuinType": "NONE",
+    "spawnNetherBridge": false,
+    "spawnNetherFossil": false,
+    "spawnBastionRemnant": false,
+    "spawnEndCity": false,
+    "spawnRuinedPortal": "NONE",
+    "defaultFeatures": [
+      "FrozenTopLayer"
+    ],
+    "spawnEntries": []
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "_fv": 39,
+  "_type": "plant",
+  "definition": {
+    "renderType": 2,
+    "texture": "old_news_paper",
+    "textureBottom": "",
+    "customModelName": "old_news_paper1:default",
+    "itemTexture": "oldnewspapericon",
+    "particleTexture": "",
+    "tintType": "No tint",
+    "isItemTinted": false,
+    "plantType": "normal",
+    "staticPlantGenerationType": "Flower",
+    "suspiciousStewEffect": "NAUSEA",
+    "suspiciousStewDuration": 40,
+    "growapableSpawnType": "Desert",
+    "growapableMaxHeight": 3,
+    "doublePlantGenerationType": "Flower",
+    "customBoundingBox": true,
+    "disableOffset": false,
+    "boundingBoxes": [
+      {
+        "mx": 0.0,
+        "my": 0.0,
+        "mz": 1.0,
+        "Mx": 17.0,
+        "My": 1.0,
+        "Mz": 15.0,
+        "subtract": false
+      }
+    ],
+    "name": "Old papers 1",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "No creative tab entry"
+    },
+    "hardness": 0.0,
+    "resistance": 0.0,
+    "luminance": 0,
+    "unbreakable": false,
+    "isSolid": false,
+    "isCustomSoundType": false,
+    "soundOnStep": {
+      "value": "SNOW"
+    },
+    "breakSound": {
+      "value": ""
+    },
+    "stepSound": {
+      "value": ""
+    },
+    "placeSound": {
+      "value": ""
+    },
+    "hitSound": {
+      "value": ""
+    },
+    "fallSound": {
+      "value": ""
+    },
+    "useLootTableForDrops": false,
+    "customDrop": {
+      "value": "CUSTOM:Papers"
+    },
+    "dropAmount": 1,
+    "forceTicking": false,
+    "emissiveRendering": false,
+    "hasTileEntity": false,
+    "isReplaceable": false,
+    "colorOnMap": "DEFAULT",
+    "creativePickItem": {
+      "value": "CUSTOM:Papers"
+    },
+    "offsetType": "NONE",
+    "aiPathNodeType": "WALKABLE",
+    "flammability": 100,
+    "fireSpreadSpeed": 60,
+    "jumpFactor": 1.0,
+    "speedFactor": 1.0,
+    "canBePlacedOn": [],
+    "isBonemealable": false,
+    "frequencyOnChunks": 1,
+    "spawnWorldTypes": [
+      "CUSTOM:Testdimension"
+    ],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:Farmontains"
+      },
+      {
+        "value": "CUSTOM:Testplains"
+      },
+      {
+        "value": "CUSTOM:Testplains2"
+      },
+      {
+        "value": "CUSTOM:Testplains3"
+      }
+    ],
+    "patchSize": 2,
+    "generateAtAnyHeight": false
+  }
+}

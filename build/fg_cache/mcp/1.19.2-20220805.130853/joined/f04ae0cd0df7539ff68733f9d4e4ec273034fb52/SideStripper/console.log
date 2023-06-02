@@ -1,0 +1,9 @@
+JVM:         C:\Program Files\Pylo\MCreator\jdk\bin\java.exe
+JVM Args:    
+Run Args:    "--strip", "--input", "C:\Program Files\The_Scorched_Wastelands_2023.1\build\fg_cache\mcp\1.19.2-20220805.130853\joined\f04ae0cd0df7539ff68733f9d4e4ec273034fb52\AccessTransformer\output.jar", "--output", "C:\Program Files\The_Scorched_Wastelands_2023.1\build\fg_cache\mcp\1.19.2-20220805.130853\joined\f04ae0cd0df7539ff68733f9d4e4ec273034fb52\SideStripper\output.jar", "--data", "C:\Program Files\The_Scorched_Wastelands_2023.1\build\fg_cache\mcp\1.19.2-20220805.130853\joined\f04ae0cd0df7539ff68733f9d4e4ec273034fb52\SideStripper\string_data.sas"
+Classpath:   C:\Users\Usuario\.mcreator\gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\mergetool\1.1.6\mergetool-1.1.6-fatjar.jar
+Working Dir: C:\Program Files\The_Scorched_Wastelands_2023.1\build\fg_cache\mcp\1.19.2-20220805.130853\joined\f04ae0cd0df7539ff68733f9d4e4ec273034fb52\SideStripper
+Main Class:  net.minecraftforge.mergetool.ConsoleMerger
+Input:  C:\Program Files\The_Scorched_Wastelands_2023.1\build\fg_cache\mcp\1.19.2-20220805.130853\joined\f04ae0cd0df7539ff68733f9d4e4ec273034fb52\AccessTransformer\output.jar
+Output: C:\Program Files\The_Scorched_Wastelands_2023.1\build\fg_cache\mcp\1.19.2-20220805.130853\joined\f04ae0cd0df7539ff68733f9d4e4ec273034fb52\SideStripper\output.jar
+Data:   C:\Program Files\The_Scorched_Wastelands_2023.1\build\fg_cache\mcp\1.19.2-20220805.130853\joined\f04ae0cd0df7539ff68733f9d4e4ec273034fb52\SideStripper\string_data.sas

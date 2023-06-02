@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "the_scorched_wastelands:blocks/dusty_grate",
+    "particle": "the_scorched_wastelands:blocks/dusty_grate"
+  },
+  "render_type": "solid"
+}

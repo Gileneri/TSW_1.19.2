@@ -1,0 +1,9 @@
+{
+  "parent": "the_scorched_wastelands:custom/wrecked_chair",
+  "textures": {
+    "all": "the_scorched_wastelands:blocks/old_chair",
+    "particle": "the_scorched_wastelands:blocks/old_chair",
+    "0": "the_scorched_wastelands:blocks/old_chair"
+  },
+  "render_type": "solid"
+}

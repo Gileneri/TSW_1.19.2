@@ -1,0 +1,6 @@
+JVM:         C:\Program Files\Pylo\MCreator\jdk\bin\java.exe
+JVM Args:    
+Run Args:    "--inJar", "C:\The_Scorched_Wastelands_2023.1\build\fg_cache\mcp\1.19.2-20220805.130853\joined\f12be50cc7c320b6e64533598bb4f3b4de98f76d\rename\output.jar", "--outJar", "C:\The_Scorched_Wastelands_2023.1\build\fg_cache\mcp\1.19.2-20220805.130853\joined\f12be50cc7c320b6e64533598bb4f3b4de98f76d\AccessTransformer\output.jar", "--atFile", "C:\The_Scorched_Wastelands_2023.1\src\main\resources\META-INF\accesstransformer.cfg", "--atFile", "C:\Users\Usuario\AppData\Local\Temp\FG_ats_4566409465635882344.cfg"
+Classpath:   C:\Users\Usuario\.mcreator\gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\accesstransformers\8.0.7\accesstransformers-8.0.7-fatjar.jar
+Working Dir: C:\The_Scorched_Wastelands_2023.1\build\fg_cache\mcp\1.19.2-20220805.130853\joined\f12be50cc7c320b6e64533598bb4f3b4de98f76d\AccessTransformer
+Main Class:  net.minecraftforge.accesstransformer.TransformerProcessor

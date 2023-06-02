@@ -1,0 +1,9 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "bottom": "the_scorched_wastelands:blocks/metal_plaques",
+    "top": "the_scorched_wastelands:blocks/metal_plaques",
+    "side": "the_scorched_wastelands:blocks/metal_plaques"
+  },
+  "render_type": "solid"
+}

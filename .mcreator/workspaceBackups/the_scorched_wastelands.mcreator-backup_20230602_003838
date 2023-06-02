@@ -1,0 +1,2851 @@
+{
+  "mod_elements": [
+    {
+      "name": "Junkpile",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "junkpile",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thescorchedwastelands/world/features/ores/JunkpileFeature.java",
+          "src/main/resources/data/the_scorched_wastelands/forge/biome_modifier/junkpile_biome_modifier.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/item/junkpile.json",
+          "src/main/resources/assets/the_scorched_wastelands/blockstates/junkpile.json",
+          "src/main/java/net/mcreator/thescorchedwastelands/block/JunkpileBlock.java",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/junkpile.json"
+        ]
+      },
+      "path": "~/ScorchedCityBlocks"
+    },
+    {
+      "name": "ScorchedWastelands",
+      "type": "tab",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scorched_wastelands",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/ScorchedCityBlocks"
+    },
+    {
+      "name": "Scorchedgrass",
+      "type": "plant",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scorchedjunk",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thescorchedwastelands/block/ScorchedgrassBlock.java",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/scorchedjunk.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/item/scorchedjunk.json",
+          "src/main/java/net/mcreator/thescorchedwastelands/world/features/plants/ScorchedgrassFeature.java",
+          "src/main/resources/assets/the_scorched_wastelands/blockstates/scorchedjunk.json",
+          "src/main/resources/data/the_scorched_wastelands/forge/biome_modifier/scorchedjunk_biome_modifier.json"
+        ]
+      },
+      "path": "~/ScorchedCityObjects"
+    },
+    {
+      "name": "ScorchedDebris",
+      "type": "plant",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scorched_debris",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_scorched_wastelands/forge/biome_modifier/scorched_debris_biome_modifier.json",
+          "src/main/java/net/mcreator/thescorchedwastelands/block/ScorchedDebrisBlock.java",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/scorched_debris.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/item/scorched_debris.json",
+          "src/main/resources/assets/the_scorched_wastelands/blockstates/scorched_debris.json",
+          "src/main/java/net/mcreator/thescorchedwastelands/world/features/plants/ScorchedDebrisFeature.java"
+        ]
+      },
+      "path": "~/ScorchedCityObjects"
+    },
+    {
+      "name": "ScorchedBush",
+      "type": "plant",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scorched_bush",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thescorchedwastelands/block/ScorchedBushBlock.java",
+          "src/main/java/net/mcreator/thescorchedwastelands/world/features/plants/ScorchedBushFeature.java",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/scorched_bush.json",
+          "src/main/resources/assets/the_scorched_wastelands/blockstates/scorched_bush.json",
+          "src/main/resources/data/the_scorched_wastelands/forge/biome_modifier/scorched_bush_biome_modifier.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/item/scorched_bush.json"
+        ]
+      },
+      "path": "~/ScorchedCityObjects"
+    },
+    {
+      "name": "RedDrySand",
+      "type": "block",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "red_dry_sand",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_scorched_wastelands/models/item/red_dry_sand.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/red_dry_sand.json",
+          "src/main/java/net/mcreator/thescorchedwastelands/block/RedDrySandBlock.java",
+          "src/main/resources/assets/the_scorched_wastelands/blockstates/red_dry_sand.json",
+          "src/main/java/net/mcreator/thescorchedwastelands/world/features/ores/RedDrySandFeature.java",
+          "src/main/resources/data/the_scorched_wastelands/forge/biome_modifier/red_dry_sand_biome_modifier.json"
+        ]
+      },
+      "path": "~/ScorchedCityBlocks"
+    },
+    {
+      "name": "Dryrock",
+      "type": "block",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dryrock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_scorched_wastelands/models/block/dryrock.json",
+          "src/main/java/net/mcreator/thescorchedwastelands/block/DryrockBlock.java",
+          "src/main/resources/data/the_scorched_wastelands/forge/biome_modifier/dryrock_biome_modifier.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/item/dryrock.json",
+          "src/main/resources/assets/the_scorched_wastelands/blockstates/dryrock.json",
+          "src/main/java/net/mcreator/thescorchedwastelands/world/features/ores/DryrockFeature.java"
+        ]
+      },
+      "path": "~/ScorchedCityBlocks"
+    },
+    {
+      "name": "Dustywood",
+      "type": "block",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dustywood",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_scorched_wastelands/models/block/dustywood.json",
+          "src/main/java/net/mcreator/thescorchedwastelands/block/DustywoodBlock.java",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/dustywood_post.json",
+          "src/main/resources/assets/the_scorched_wastelands/blockstates/dustywood.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/item/dustywood.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/dustywood_inventory.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/dustywood_side_tall.json"
+        ]
+      },
+      "path": "~/ScorchedCityBlocks"
+    },
+    {
+      "name": "Poletop",
+      "type": "block",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poletop",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_scorched_wastelands/forge/biome_modifier/poletop_biome_modifier.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/item/poletop.json",
+          "src/main/resources/assets/the_scorched_wastelands/blockstates/poletop.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/poletop.json",
+          "src/main/java/net/mcreator/thescorchedwastelands/block/PoletopBlock.java",
+          "src/main/java/net/mcreator/thescorchedwastelands/world/features/ores/PoletopFeature.java"
+        ]
+      },
+      "path": "~/ScorchedCityObjects"
+    },
+    {
+      "name": "Telephonepole",
+      "type": "structure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "telephonepole",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thescorchedwastelands/world/features/TelephonepoleFeature.java",
+          "src/main/resources/data/the_scorched_wastelands/forge/biome_modifier/telephonepole_biome_modifier.json"
+        ]
+      },
+      "path": "~/ScorchedCityStructures"
+    },
+    {
+      "name": "Utilitypole",
+      "type": "block",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "utilitypole",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thescorchedwastelands/world/features/ores/UtilitypoleFeature.java",
+          "src/main/resources/assets/the_scorched_wastelands/blockstates/utilitypole.json",
+          "src/main/java/net/mcreator/thescorchedwastelands/block/UtilitypoleBlock.java",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/utilitypole.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/item/utilitypole.json",
+          "src/main/resources/data/the_scorched_wastelands/forge/biome_modifier/utilitypole_biome_modifier.json"
+        ]
+      },
+      "path": "~/ScorchedCityObjects"
+    },
+    {
+      "name": "Utilitypole2",
+      "type": "structure",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "utilitypole_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thescorchedwastelands/world/features/Utilitypole2Feature.java",
+          "src/main/resources/data/the_scorched_wastelands/forge/biome_modifier/utilitypole_2_biome_modifier.json"
+        ]
+      },
+      "path": "~/ScorchedCityStructures"
+    },
+    {
+      "name": "Drydirt",
+      "type": "block",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drydirt",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thescorchedwastelands/world/features/ores/DrydirtFeature.java",
+          "src/main/resources/data/the_scorched_wastelands/forge/biome_modifier/drydirt_biome_modifier.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/drydirt.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/item/drydirt.json",
+          "src/main/resources/assets/the_scorched_wastelands/blockstates/drydirt.json",
+          "src/main/java/net/mcreator/thescorchedwastelands/block/DrydirtBlock.java"
+        ]
+      },
+      "path": "~/ScorchedCityBlocks"
+    },
+    {
+      "name": "Junkpile2",
+      "type": "structure",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "junkpile_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thescorchedwastelands/world/features/Junkpile2Feature.java",
+          "src/main/resources/data/the_scorched_wastelands/forge/biome_modifier/junkpile_2_biome_modifier.json"
+        ]
+      },
+      "path": "~/ScorchedCityStructures"
+    },
+    {
+      "name": "Junkpile3",
+      "type": "structure",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "junkpile_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thescorchedwastelands/world/features/Junkpile3Feature.java",
+          "src/main/resources/data/the_scorched_wastelands/forge/biome_modifier/junkpile_3_biome_modifier.json"
+        ]
+      },
+      "path": "~/ScorchedCityStructures"
+    },
+    {
+      "name": "Olddebris",
+      "type": "block",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "olddebris",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thescorchedwastelands/world/features/ores/OlddebrisFeature.java",
+          "src/main/resources/data/the_scorched_wastelands/forge/biome_modifier/olddebris_biome_modifier.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/olddebris.json",
+          "src/main/resources/assets/the_scorched_wastelands/blockstates/olddebris.json",
+          "src/main/java/net/mcreator/thescorchedwastelands/block/OlddebrisBlock.java",
+          "src/main/resources/assets/the_scorched_wastelands/models/item/olddebris.json"
+        ]
+      },
+      "path": "~/ScorchedCityBlocks"
+    },
+    {
+      "name": "Pileofdebris",
+      "type": "structure",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pileofdebris",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_scorched_wastelands/forge/biome_modifier/pileofdebris_biome_modifier.json",
+          "src/main/java/net/mcreator/thescorchedwastelands/world/features/PileofdebrisFeature.java"
+        ]
+      },
+      "path": "~/ScorchedCityStructures"
+    },
+    {
+      "name": "Rustedcrate",
+      "type": "block",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rustedcrate",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thescorchedwastelands/block/entity/RustedcrateBlockEntity.java",
+          "src/main/resources/assets/the_scorched_wastelands/models/item/rustedcrate.json",
+          "src/main/resources/assets/the_scorched_wastelands/blockstates/rustedcrate.json",
+          "src/main/java/net/mcreator/thescorchedwastelands/block/RustedcrateBlock.java",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/rustedcrate.json"
+        ]
+      },
+      "path": "~/ScorchedCityObjects"
+    },
+    {
+      "name": "Rustedcrate1gui",
+      "type": "gui",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rustedcrate_1gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thescorchedwastelands/client/gui/Rustedcrate1guiScreen.java",
+          "src/main/java/net/mcreator/thescorchedwastelands/world/inventory/Rustedcrate1guiMenu.java"
+        ]
+      },
+      "path": "~/GUIs"
+    },
+    {
+      "name": "Smallrustedcrate",
+      "type": "block",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smallrustedcrate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_scorched_wastelands/blockstates/smallrustedcrate.json",
+          "src/main/java/net/mcreator/thescorchedwastelands/block/SmallrustedcrateBlock.java",
+          "src/main/java/net/mcreator/thescorchedwastelands/block/entity/SmallrustedcrateBlockEntity.java",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/smallrustedcrate.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/item/smallrustedcrate.json"
+        ]
+      },
+      "path": "~/ScorchedCityObjects"
+    },
+    {
+      "name": "Smallrustedcrategui",
+      "type": "gui",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smallrustedcrategui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thescorchedwastelands/world/inventory/SmallrustedcrateguiMenu.java",
+          "src/main/java/net/mcreator/thescorchedwastelands/client/gui/SmallrustedcrateguiScreen.java"
+        ]
+      },
+      "path": "~/GUIs"
+    },
+    {
+      "name": "Debrisslab",
+      "type": "block",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "debrisslab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_scorched_wastelands/models/block/debrisslab.json",
+          "src/main/java/net/mcreator/thescorchedwastelands/block/DebrisslabBlock.java",
+          "src/main/resources/assets/the_scorched_wastelands/models/item/debrisslab.json",
+          "src/main/resources/assets/the_scorched_wastelands/blockstates/debrisslab.json"
+        ]
+      },
+      "path": "~/ScorchedCityBlocks"
+    },
+    {
+      "name": "Cratestash",
+      "type": "structure",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cratestash",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thescorchedwastelands/world/features/CratestashFeature.java",
+          "src/main/resources/data/the_scorched_wastelands/forge/biome_modifier/cratestash_biome_modifier.json"
+        ]
+      },
+      "path": "~/ScorchedCityStructures"
+    },
+    {
+      "name": "Rustymetal",
+      "type": "block",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "rustymetal",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_scorched_wastelands/models/block/rustymetal.json",
+          "src/main/java/net/mcreator/thescorchedwastelands/block/RustymetalBlock.java",
+          "src/main/resources/assets/the_scorched_wastelands/models/item/rustymetal.json",
+          "src/main/resources/assets/the_scorched_wastelands/blockstates/rustymetal.json"
+        ]
+      },
+      "path": "~/ScorchedCityBlocks"
+    },
+    {
+      "name": "Platedmetal",
+      "type": "block",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "platedmetal",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_scorched_wastelands/models/block/platedmetal.json",
+          "src/main/resources/assets/the_scorched_wastelands/blockstates/platedmetal.json",
+          "src/main/java/net/mcreator/thescorchedwastelands/block/PlatedmetalBlock.java",
+          "src/main/resources/assets/the_scorched_wastelands/models/item/platedmetal.json"
+        ]
+      },
+      "path": "~/ScorchedCityBlocks"
+    },
+    {
+      "name": "Copperrebbar",
+      "type": "block",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copperrebbar",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_scorched_wastelands/models/item/copperrebbar.json",
+          "src/main/resources/assets/the_scorched_wastelands/blockstates/copperrebbar.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/copperrebbar.json",
+          "src/main/java/net/mcreator/thescorchedwastelands/block/CopperrebbarBlock.java"
+        ]
+      },
+      "path": "~/ScorchedCityObjects"
+    },
+    {
+      "name": "Platedmetalslab",
+      "type": "block",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platedmetalslab",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thescorchedwastelands/block/PlatedmetalslabBlock.java",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/platedmetalslab.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/platedmetalslab_top.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/item/platedmetalslab.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/platedmetalslab_full.json",
+          "src/main/resources/assets/the_scorched_wastelands/blockstates/platedmetalslab.json"
+        ]
+      },
+      "path": "~/ScorchedCityBlocks"
+    },
+    {
+      "name": "Rustymetalslab",
+      "type": "block",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rustymetalslab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_scorched_wastelands/models/block/rustymetalslab_top.json",
+          "src/main/java/net/mcreator/thescorchedwastelands/block/RustymetalslabBlock.java",
+          "src/main/resources/assets/the_scorched_wastelands/models/item/rustymetalslab.json",
+          "src/main/resources/assets/the_scorched_wastelands/blockstates/rustymetalslab.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/rustymetalslab.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/rustymetalslab_full.json"
+        ]
+      },
+      "path": "~/ScorchedCityBlocks"
+    },
+    {
+      "name": "Testplains",
+      "type": "biome",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "testplains",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thescorchedwastelands/world/features/treedecorators/TestplainsFruitDecorator.java",
+          "src/main/java/net/mcreator/thescorchedwastelands/world/features/treedecorators/TestplainsLeaveDecorator.java",
+          "src/main/java/net/mcreator/thescorchedwastelands/world/biome/TestplainsBiome.java",
+          "src/main/java/net/mcreator/thescorchedwastelands/world/features/treedecorators/TestplainsTrunkDecorator.java"
+        ]
+      },
+      "path": "~/ScorchedCityBiomes"
+    },
+    {
+      "name": "Testplains2",
+      "type": "biome",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "testplains_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thescorchedwastelands/world/biome/Testplains2Biome.java",
+          "src/main/java/net/mcreator/thescorchedwastelands/world/features/treedecorators/Testplains2TrunkDecorator.java",
+          "src/main/java/net/mcreator/thescorchedwastelands/world/features/treedecorators/Testplains2LeaveDecorator.java",
+          "src/main/java/net/mcreator/thescorchedwastelands/world/features/treedecorators/Testplains2FruitDecorator.java"
+        ]
+      },
+      "path": "~/ScorchedCityBiomes"
+    },
+    {
+      "name": "Testdimension",
+      "type": "dimension",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "testdimension",
+      "metadata": {
+        "ep": true,
+        "files": [
+          "src/main/java/net/mcreator/thescorchedwastelands/world/teleporter/TestdimensionPortalShape.java",
+          "src/main/resources/data/the_scorched_wastelands/dimension/testdimension.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/item/testdimension.json",
+          "src/main/java/net/mcreator/thescorchedwastelands/world/teleporter/TestdimensionTeleporter.java",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/testdimension_portal_ns.json",
+          "src/main/resources/assets/the_scorched_wastelands/blockstates/testdimension_portal.json",
+          "src/main/java/net/mcreator/thescorchedwastelands/item/TestdimensionItem.java",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/testdimension_portal_ew.json",
+          "src/main/java/net/mcreator/thescorchedwastelands/block/TestdimensionPortalBlock.java",
+          "src/main/java/net/mcreator/thescorchedwastelands/world/dimension/TestdimensionDimension.java",
+          "src/main/resources/data/the_scorched_wastelands/dimension_type/testdimension.json"
+        ]
+      },
+      "path": "~/dimensions"
+    },
+    {
+      "name": "Testplains3",
+      "type": "biome",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "testplains_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thescorchedwastelands/world/features/treedecorators/Testplains3FruitDecorator.java",
+          "src/main/java/net/mcreator/thescorchedwastelands/world/biome/Testplains3Biome.java",
+          "src/main/java/net/mcreator/thescorchedwastelands/world/features/treedecorators/Testplains3TrunkDecorator.java",
+          "src/main/java/net/mcreator/thescorchedwastelands/world/features/treedecorators/Testplains3LeaveDecorator.java"
+        ]
+      },
+      "path": "~/ScorchedCityBiomes"
+    },
+    {
+      "name": "Farmontains",
+      "type": "biome",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "farmontains",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thescorchedwastelands/world/features/treedecorators/FarmontainsTrunkDecorator.java",
+          "src/main/java/net/mcreator/thescorchedwastelands/world/biome/FarmontainsBiome.java",
+          "src/main/java/net/mcreator/thescorchedwastelands/world/features/treedecorators/FarmontainsFruitDecorator.java",
+          "src/main/java/net/mcreator/thescorchedwastelands/world/features/treedecorators/FarmontainsLeaveDecorator.java"
+        ]
+      },
+      "path": "~/ScorchedCityBiomes"
+    },
+    {
+      "name": "Ironframes",
+      "type": "block",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "ironframes",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thescorchedwastelands/block/IronframesBlock.java",
+          "src/main/resources/assets/the_scorched_wastelands/models/item/ironframes.json",
+          "src/main/resources/assets/the_scorched_wastelands/blockstates/ironframes.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/ironframes.json"
+        ]
+      },
+      "path": "~/ScorchedCityBlocks"
+    },
+    {
+      "name": "SignPole",
+      "type": "block",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sign_pole",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_scorched_wastelands/models/block/sign_pole.json",
+          "src/main/resources/assets/the_scorched_wastelands/blockstates/sign_pole.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/item/sign_pole.json",
+          "src/main/java/net/mcreator/thescorchedwastelands/block/SignPoleBlock.java"
+        ]
+      },
+      "path": "~/ScorchedCityObjects"
+    },
+    {
+      "name": "SignTop",
+      "type": "block",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sign_top",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thescorchedwastelands/block/SignTopBlock.java",
+          "src/main/resources/assets/the_scorched_wastelands/models/item/sign_top.json",
+          "src/main/resources/assets/the_scorched_wastelands/blockstates/sign_top.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/sign_top.json"
+        ]
+      },
+      "path": "~/ScorchedCityObjects"
+    },
+    {
+      "name": "Rustysidewalk",
+      "type": "structure",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rustysidewalk",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thescorchedwastelands/world/features/RustysidewalkFeature.java",
+          "src/main/resources/data/the_scorched_wastelands/forge/biome_modifier/rustysidewalk_biome_modifier.json"
+        ]
+      },
+      "path": "~/ScorchedCityStructures"
+    },
+    {
+      "name": "BarSupport",
+      "type": "block",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bar_support",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thescorchedwastelands/block/BarSupportBlock.java",
+          "src/main/resources/assets/the_scorched_wastelands/blockstates/bar_support.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/item/bar_support.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/bar_support.json"
+        ]
+      },
+      "path": "~/ScorchedCityObjects"
+    },
+    {
+      "name": "Gasstation",
+      "type": "structure",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gasstation",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_scorched_wastelands/forge/biome_modifier/gasstation_biome_modifier.json",
+          "src/main/java/net/mcreator/thescorchedwastelands/world/features/GasstationFeature.java"
+        ]
+      },
+      "path": "~/ScorchedCityStructures"
+    },
+    {
+      "name": "ScorchedBench",
+      "type": "block",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scorched_bench",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thescorchedwastelands/block/ScorchedBenchBlock.java",
+          "src/main/resources/assets/the_scorched_wastelands/blockstates/scorched_bench.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/scorched_bench.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/item/scorched_bench.json"
+        ]
+      },
+      "path": "~/ScorchedCityObjects"
+    },
+    {
+      "name": "Benches",
+      "type": "structure",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "benches",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_scorched_wastelands/forge/biome_modifier/benches_biome_modifier.json",
+          "src/main/java/net/mcreator/thescorchedwastelands/world/features/BenchesFeature.java"
+        ]
+      },
+      "path": "~/ScorchedCityStructures"
+    },
+    {
+      "name": "Dumpster",
+      "type": "block",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dumpster",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_scorched_wastelands/models/item/dumpster.json",
+          "src/main/resources/assets/the_scorched_wastelands/blockstates/dumpster.json",
+          "src/main/java/net/mcreator/thescorchedwastelands/block/DumpsterBlock.java",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/dumpster.json"
+        ]
+      },
+      "path": "~/ScorchedCityObjects"
+    },
+    {
+      "name": "Erodedstore",
+      "type": "structure",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "erodedstore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_scorched_wastelands/forge/biome_modifier/erodedstore_biome_modifier.json",
+          "src/main/java/net/mcreator/thescorchedwastelands/world/features/ErodedstoreFeature.java"
+        ]
+      },
+      "path": "~/ScorchedCityStructures"
+    },
+    {
+      "name": "Dumpsterwalkway",
+      "type": "structure",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dumpsterwalkway",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thescorchedwastelands/world/features/DumpsterwalkwayFeature.java",
+          "src/main/resources/data/the_scorched_wastelands/forge/biome_modifier/dumpsterwalkway_biome_modifier.json"
+        ]
+      },
+      "path": "~/ScorchedCityStructures"
+    },
+    {
+      "name": "Brockeneletricbox",
+      "type": "block",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brockeneletricbox",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_scorched_wastelands/models/item/brockeneletricbox.json",
+          "src/main/java/net/mcreator/thescorchedwastelands/block/BrockeneletricboxBlock.java",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/brockeneletricbox.json",
+          "src/main/resources/assets/the_scorched_wastelands/blockstates/brockeneletricbox.json"
+        ]
+      },
+      "path": "~/ScorchedCityObjects"
+    },
+    {
+      "name": "Rustystreet",
+      "type": "structure",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rustystreet",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_scorched_wastelands/forge/biome_modifier/rustystreet_biome_modifier.json",
+          "src/main/java/net/mcreator/thescorchedwastelands/world/features/RustystreetFeature.java"
+        ]
+      },
+      "path": "~/ScorchedCityStructures"
+    },
+    {
+      "name": "SuppliesShelf",
+      "type": "block",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "supplies_shelf",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_scorched_wastelands/models/item/supplies_shelf.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/supplies_shelf.json",
+          "src/main/resources/assets/the_scorched_wastelands/blockstates/supplies_shelf.json",
+          "src/main/java/net/mcreator/thescorchedwastelands/block/SuppliesShelfBlock.java"
+        ]
+      },
+      "path": "~/ScorchedCityObjects"
+    },
+    {
+      "name": "Wreckedvent",
+      "type": "block",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wreckedvent",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_scorched_wastelands/blockstates/wreckedvent.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/wreckedvent.json",
+          "src/main/java/net/mcreator/thescorchedwastelands/block/WreckedventBlock.java",
+          "src/main/resources/assets/the_scorched_wastelands/models/item/wreckedvent.json"
+        ]
+      },
+      "path": "~/ScorchedCityObjects"
+    },
+    {
+      "name": "Wreckedvendingmachine",
+      "type": "block",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wreckedvendingmachine",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thescorchedwastelands/block/WreckedvendingmachineBlock.java",
+          "src/main/resources/assets/the_scorched_wastelands/models/item/wreckedvendingmachine.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/wreckedvendingmachine.json",
+          "src/main/resources/assets/the_scorched_wastelands/blockstates/wreckedvendingmachine.json"
+        ]
+      },
+      "path": "~/ScorchedCityObjects"
+    },
+    {
+      "name": "WreckedTV",
+      "type": "block",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wrecked_tv",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_scorched_wastelands/models/item/wrecked_tv.json",
+          "src/main/resources/assets/the_scorched_wastelands/blockstates/wrecked_tv.json",
+          "src/main/java/net/mcreator/thescorchedwastelands/block/WreckedTVBlock.java",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/wrecked_tv.json"
+        ]
+      },
+      "path": "~/ScorchedCityObjects"
+    },
+    {
+      "name": "HeavyDullBlade",
+      "type": "tool",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heavy_dull_blade",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thescorchedwastelands/item/HeavyDullBladeItem.java",
+          "src/main/resources/assets/the_scorched_wastelands/models/item/heavy_dull_blade.json"
+        ]
+      },
+      "path": "~/weapons"
+    },
+    {
+      "name": "RustedTable",
+      "type": "block",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rusted_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_scorched_wastelands/blockstates/rusted_table.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/rusted_table.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/item/rusted_table.json",
+          "src/main/java/net/mcreator/thescorchedwastelands/block/RustedTableBlock.java"
+        ]
+      },
+      "path": "~/ScorchedCityObjects"
+    },
+    {
+      "name": "Hangingwires",
+      "type": "block",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hangingwires",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_scorched_wastelands/models/item/hangingwires.json",
+          "src/main/java/net/mcreator/thescorchedwastelands/block/HangingwiresBlock.java",
+          "src/main/resources/assets/the_scorched_wastelands/blockstates/hangingwires.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/hangingwires.json"
+        ]
+      },
+      "path": "~/ScorchedCityObjects"
+    },
+    {
+      "name": "Littletable",
+      "type": "block",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "littletable",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_scorched_wastelands/blockstates/littletable.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/item/littletable.json",
+          "src/main/java/net/mcreator/thescorchedwastelands/block/LittletableBlock.java",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/littletable.json"
+        ]
+      },
+      "path": "~/ScorchedCityObjects"
+    },
+    {
+      "name": "Smashedscreen",
+      "type": "block",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smashedscreen",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_scorched_wastelands/blockstates/smashedscreen.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/item/smashedscreen.json",
+          "src/main/java/net/mcreator/thescorchedwastelands/block/SmashedscreenBlock.java",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/smashedscreen.json"
+        ]
+      },
+      "path": "~/ScorchedCityObjects"
+    },
+    {
+      "name": "RustyLocker",
+      "type": "block",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rusty_locker",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_scorched_wastelands/blockstates/rusty_locker.json",
+          "src/main/java/net/mcreator/thescorchedwastelands/block/RustyLockerBlock.java",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/rusty_locker.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/item/rusty_locker.json"
+        ]
+      },
+      "path": "~/ScorchedCityObjects"
+    },
+    {
+      "name": "RustedLocker",
+      "type": "gui",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rusted_locker",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thescorchedwastelands/world/inventory/RustedLockerMenu.java",
+          "src/main/java/net/mcreator/thescorchedwastelands/client/gui/RustedLockerScreen.java"
+        ]
+      },
+      "path": "~/GUIs"
+    },
+    {
+      "name": "RustedBrokenFan",
+      "type": "block",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rusted_broken_fan",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_scorched_wastelands/blockstates/rusted_broken_fan.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/rusted_broken_fan.json",
+          "src/main/java/net/mcreator/thescorchedwastelands/block/RustedBrokenFanBlock.java",
+          "src/main/resources/assets/the_scorched_wastelands/models/item/rusted_broken_fan.json"
+        ]
+      },
+      "path": "~/ScorchedCityObjects"
+    },
+    {
+      "name": "Wreckedcrate",
+      "type": "block",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wreckedcrate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_scorched_wastelands/blockstates/wreckedcrate.json",
+          "src/main/java/net/mcreator/thescorchedwastelands/block/WreckedcrateBlock.java",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/wreckedcrate.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/item/wreckedcrate.json"
+        ]
+      },
+      "path": "~/ScorchedCityObjects"
+    },
+    {
+      "name": "WreckedObjects",
+      "type": "tab",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wrecked_objects",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/ScorchedCityObjects"
+    },
+    {
+      "name": "Brokenterminal",
+      "type": "block",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brokenterminal",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_scorched_wastelands/models/block/brokenterminal.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/item/brokenterminal.json",
+          "src/main/java/net/mcreator/thescorchedwastelands/block/BrokenterminalBlock.java",
+          "src/main/resources/assets/the_scorched_wastelands/blockstates/brokenterminal.json"
+        ]
+      },
+      "path": "~/ScorchedCityObjects"
+    },
+    {
+      "name": "Wreckedconsole",
+      "type": "block",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wreckedconsole",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_scorched_wastelands/models/item/wreckedconsole.json",
+          "src/main/java/net/mcreator/thescorchedwastelands/block/WreckedconsoleBlock.java",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/wreckedconsole.json",
+          "src/main/resources/assets/the_scorched_wastelands/blockstates/wreckedconsole.json"
+        ]
+      },
+      "path": "~/ScorchedCityObjects"
+    },
+    {
+      "name": "Wreckedcontrolpanel",
+      "type": "block",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wreckedcontrolpanel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_scorched_wastelands/blockstates/wreckedcontrolpanel.json",
+          "src/main/java/net/mcreator/thescorchedwastelands/block/WreckedcontrolpanelBlock.java",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/wreckedcontrolpanel.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/item/wreckedcontrolpanel.json"
+        ]
+      },
+      "path": "~/ScorchedCityObjects"
+    },
+    {
+      "name": "Rustedchair",
+      "type": "block",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rustedchair",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_scorched_wastelands/blockstates/rustedchair.json",
+          "src/main/java/net/mcreator/thescorchedwastelands/block/RustedchairBlock.java",
+          "src/main/resources/assets/the_scorched_wastelands/models/item/rustedchair.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/rustedchair.json"
+        ]
+      },
+      "path": "~/ScorchedCityObjects"
+    },
+    {
+      "name": "Rustedboiler",
+      "type": "block",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rustedboiler",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_scorched_wastelands/models/block/rustedboiler.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/item/rustedboiler.json",
+          "src/main/java/net/mcreator/thescorchedwastelands/block/RustedboilerBlock.java",
+          "src/main/resources/assets/the_scorched_wastelands/blockstates/rustedboiler.json"
+        ]
+      },
+      "path": "~/ScorchedCityObjects"
+    },
+    {
+      "name": "Brokentable",
+      "type": "block",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brokentable",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_scorched_wastelands/models/block/brokentable.json",
+          "src/main/resources/assets/the_scorched_wastelands/blockstates/brokentable.json",
+          "src/main/java/net/mcreator/thescorchedwastelands/block/BrokentableBlock.java",
+          "src/main/resources/assets/the_scorched_wastelands/models/item/brokentable.json"
+        ]
+      },
+      "path": "~/ScorchedCityObjects"
+    },
+    {
+      "name": "Decayedshelf",
+      "type": "block",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "decayedshelf",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_scorched_wastelands/models/block/decayedshelf.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/item/decayedshelf.json",
+          "src/main/java/net/mcreator/thescorchedwastelands/block/DecayedshelfBlock.java",
+          "src/main/resources/assets/the_scorched_wastelands/blockstates/decayedshelf.json"
+        ]
+      },
+      "path": "~/ScorchedCityObjects"
+    },
+    {
+      "name": "Brokenregister",
+      "type": "block",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brokenregister",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thescorchedwastelands/block/BrokenregisterBlock.java",
+          "src/main/resources/assets/the_scorched_wastelands/models/item/brokenregister.json",
+          "src/main/resources/assets/the_scorched_wastelands/blockstates/brokenregister.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/brokenregister.json"
+        ]
+      },
+      "path": "~/ScorchedCityObjects"
+    },
+    {
+      "name": "Grayplatedmetal",
+      "type": "block",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grayplatedmetal",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_scorched_wastelands/blockstates/grayplatedmetal.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/grayplatedmetal.json",
+          "src/main/java/net/mcreator/thescorchedwastelands/block/GrayplatedmetalBlock.java",
+          "src/main/resources/assets/the_scorched_wastelands/models/item/grayplatedmetal.json"
+        ]
+      },
+      "path": "~/ScorchedCityBlocks"
+    },
+    {
+      "name": "Charredmetalplating",
+      "type": "block",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charredmetalplating",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_scorched_wastelands/models/block/charredmetalplating.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/item/charredmetalplating.json",
+          "src/main/resources/assets/the_scorched_wastelands/blockstates/charredmetalplating.json",
+          "src/main/java/net/mcreator/thescorchedwastelands/block/CharredmetalplatingBlock.java"
+        ]
+      },
+      "path": "~/ScorchedCityBlocks"
+    },
+    {
+      "name": "Dustygrate",
+      "type": "block",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dustygrate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_scorched_wastelands/blockstates/dustygrate.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/dustygrate.json",
+          "src/main/java/net/mcreator/thescorchedwastelands/block/DustygrateBlock.java",
+          "src/main/resources/assets/the_scorched_wastelands/models/item/dustygrate.json"
+        ]
+      },
+      "path": "~/ScorchedCityBlocks"
+    },
+    {
+      "name": "Scorchedplating",
+      "type": "block",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scorchedplating",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_scorched_wastelands/models/block/scorchedplating.json",
+          "src/main/java/net/mcreator/thescorchedwastelands/block/ScorchedplatingBlock.java",
+          "src/main/resources/assets/the_scorched_wastelands/models/item/scorchedplating.json",
+          "src/main/resources/assets/the_scorched_wastelands/blockstates/scorchedplating.json"
+        ]
+      },
+      "path": "~/ScorchedCityBlocks"
+    },
+    {
+      "name": "Rustyscafolding",
+      "type": "block",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rustyscafolding",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_scorched_wastelands/models/item/rustyscafolding.json",
+          "src/main/resources/assets/the_scorched_wastelands/blockstates/rustyscafolding.json",
+          "src/main/java/net/mcreator/thescorchedwastelands/block/RustyscafoldingBlock.java",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/rustyscafolding.json"
+        ]
+      },
+      "path": "~/ScorchedCityBlocks"
+    },
+    {
+      "name": "Dustycircuit",
+      "type": "block",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dustycircuit",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_scorched_wastelands/blockstates/dustycircuit.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/item/dustycircuit.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/dustycircuit.json",
+          "src/main/java/net/mcreator/thescorchedwastelands/block/DustycircuitBlock.java"
+        ]
+      },
+      "path": "~/ScorchedCityBlocks"
+    },
+    {
+      "name": "Rustyboltedplates",
+      "type": "block",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rustyboltedplates",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_scorched_wastelands/blockstates/rustyboltedplates.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/item/rustyboltedplates.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/rustyboltedplates.json",
+          "src/main/java/net/mcreator/thescorchedwastelands/block/RustyboltedplatesBlock.java"
+        ]
+      },
+      "path": "~/ScorchedCityBlocks"
+    },
+    {
+      "name": "Rustedbars",
+      "type": "block",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rustedbars",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_scorched_wastelands/blockstates/rustedbars.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/rustedbars.json",
+          "src/main/java/net/mcreator/thescorchedwastelands/block/RustedbarsBlock.java",
+          "src/main/resources/assets/the_scorched_wastelands/models/item/rustedbars.json"
+        ]
+      },
+      "path": "~/ScorchedCityBlocks"
+    },
+    {
+      "name": "Rustedplates",
+      "type": "block",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rustedplates",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_scorched_wastelands/models/block/rustedplates.json",
+          "src/main/java/net/mcreator/thescorchedwastelands/block/RustedplatesBlock.java",
+          "src/main/resources/assets/the_scorched_wastelands/models/item/rustedplates.json",
+          "src/main/resources/assets/the_scorched_wastelands/blockstates/rustedplates.json"
+        ]
+      },
+      "path": "~/ScorchedCityBlocks"
+    },
+    {
+      "name": "Metalsheets",
+      "type": "block",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "metalsheets",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_scorched_wastelands/models/block/metalsheets.json",
+          "src/main/java/net/mcreator/thescorchedwastelands/block/MetalsheetsBlock.java",
+          "src/main/resources/assets/the_scorched_wastelands/blockstates/metalsheets.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/item/metalsheets.json"
+        ]
+      },
+      "path": "~/ScorchedCityBlocks"
+    },
+    {
+      "name": "Scorchedhazardtape",
+      "type": "block",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scorchedhazardtape",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_scorched_wastelands/models/item/scorchedhazardtape.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/scorchedhazardtape.json",
+          "src/main/resources/assets/the_scorched_wastelands/blockstates/scorchedhazardtape.json",
+          "src/main/java/net/mcreator/thescorchedwastelands/block/ScorchedhazardtapeBlock.java"
+        ]
+      },
+      "path": "~/ScorchedCityBlocks"
+    },
+    {
+      "name": "Scorchedtapumme",
+      "type": "block",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scorchedtapumme",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thescorchedwastelands/block/ScorchedtapummeBlock.java",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/scorchedtapumme.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/item/scorchedtapumme.json",
+          "src/main/resources/assets/the_scorched_wastelands/blockstates/scorchedtapumme.json"
+        ]
+      },
+      "path": "~/ScorchedCityBlocks"
+    },
+    {
+      "name": "Makeshiftmetalsheets",
+      "type": "block",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "makeshiftmetalsheets",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_scorched_wastelands/models/item/makeshiftmetalsheets.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/makeshiftmetalsheets.json",
+          "src/main/java/net/mcreator/thescorchedwastelands/block/MakeshiftmetalsheetsBlock.java",
+          "src/main/resources/assets/the_scorched_wastelands/blockstates/makeshiftmetalsheets.json"
+        ]
+      },
+      "path": "~/ScorchedCityBlocks"
+    },
+    {
+      "name": "Metaliccolumn",
+      "type": "block",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "metaliccolumn",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_scorched_wastelands/models/item/metaliccolumn.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/metaliccolumn.json",
+          "src/main/resources/assets/the_scorched_wastelands/blockstates/metaliccolumn.json",
+          "src/main/java/net/mcreator/thescorchedwastelands/block/MetaliccolumnBlock.java"
+        ]
+      },
+      "path": "~/ScorchedCityBlocks"
+    },
+    {
+      "name": "Scorchedcargoplating",
+      "type": "block",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scorchedcargoplating",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thescorchedwastelands/block/ScorchedcargoplatingBlock.java",
+          "src/main/resources/assets/the_scorched_wastelands/blockstates/scorchedcargoplating.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/item/scorchedcargoplating.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/scorchedcargoplating.json"
+        ]
+      },
+      "path": "~/ScorchedCityBlocks"
+    },
+    {
+      "name": "Slopedrustpanel",
+      "type": "block",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slopedrustpanel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_scorched_wastelands/models/item/slopedrustpanel.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/slopedrustpanel.json",
+          "src/main/java/net/mcreator/thescorchedwastelands/block/SlopedrustpanelBlock.java",
+          "src/main/resources/assets/the_scorched_wastelands/blockstates/slopedrustpanel.json"
+        ]
+      },
+      "path": "~/ScorchedCityBlocks"
+    },
+    {
+      "name": "Rustytech",
+      "type": "block",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "rustytech",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_scorched_wastelands/models/item/rustytech.json",
+          "src/main/java/net/mcreator/thescorchedwastelands/block/RustytechBlock.java",
+          "src/main/resources/assets/the_scorched_wastelands/blockstates/rustytech.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/rustytech.json"
+        ]
+      },
+      "path": "~/ScorchedCityBlocks"
+    },
+    {
+      "name": "Metalplaques",
+      "type": "block",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "metalplaques",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thescorchedwastelands/block/MetalplaquesBlock.java",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/metalplaques.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/item/metalplaques.json",
+          "src/main/resources/assets/the_scorched_wastelands/blockstates/metalplaques.json"
+        ]
+      },
+      "path": "~/ScorchedCityBlocks"
+    },
+    {
+      "name": "Rustymetalplaques",
+      "type": "block",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rustymetalplaques",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_scorched_wastelands/models/block/rustymetalplaques.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/item/rustymetalplaques.json",
+          "src/main/resources/assets/the_scorched_wastelands/blockstates/rustymetalplaques.json",
+          "src/main/java/net/mcreator/thescorchedwastelands/block/RustymetalplaquesBlock.java"
+        ]
+      },
+      "path": "~/ScorchedCityBlocks"
+    },
+    {
+      "name": "Metalplaqueslab",
+      "type": "block",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "metalplaqueslab",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thescorchedwastelands/block/MetalplaqueslabBlock.java",
+          "src/main/resources/assets/the_scorched_wastelands/models/item/metalplaqueslab.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/metalplaqueslab.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/metalplaqueslab_full.json",
+          "src/main/resources/assets/the_scorched_wastelands/blockstates/metalplaqueslab.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/metalplaqueslab_top.json"
+        ]
+      },
+      "path": "~/ScorchedCityBlocks"
+    },
+    {
+      "name": "Rustymetalplaqueslab",
+      "type": "block",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rustymetalplaqueslab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_scorched_wastelands/models/item/rustymetalplaqueslab.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/rustymetalplaqueslab_top.json",
+          "src/main/java/net/mcreator/thescorchedwastelands/block/RustymetalplaqueslabBlock.java",
+          "src/main/resources/assets/the_scorched_wastelands/blockstates/rustymetalplaqueslab.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/rustymetalplaqueslab_full.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/rustymetalplaqueslab.json"
+        ]
+      },
+      "path": "~/ScorchedCityObjects"
+    },
+    {
+      "name": "Metalplaquestairs",
+      "type": "block",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "metalplaquestairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_scorched_wastelands/models/block/metalplaquestairs.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/item/metalplaquestairs.json",
+          "src/main/resources/assets/the_scorched_wastelands/blockstates/metalplaquestairs.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/metalplaquestairs_inner.json",
+          "src/main/java/net/mcreator/thescorchedwastelands/block/MetalplaquestairsBlock.java",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/metalplaquestairs_outer.json"
+        ]
+      },
+      "path": "~/ScorchedCityObjects"
+    },
+    {
+      "name": "Rustymetalplaquestairs",
+      "type": "block",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rustymetalplaquestairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_scorched_wastelands/models/block/rustymetalplaquestairs.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/rustymetalplaquestairs_inner.json",
+          "src/main/java/net/mcreator/thescorchedwastelands/block/RustymetalplaquestairsBlock.java",
+          "src/main/resources/assets/the_scorched_wastelands/blockstates/rustymetalplaquestairs.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/rustymetalplaquestairs_outer.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/item/rustymetalplaquestairs.json"
+        ]
+      },
+      "path": "~/ScorchedCityBlocks"
+    },
+    {
+      "name": "Rustywall",
+      "type": "block",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rustywall",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_scorched_wastelands/models/block/rustywall_side_tall.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/rustywall_post.json",
+          "src/main/java/net/mcreator/thescorchedwastelands/block/RustywallBlock.java",
+          "src/main/resources/assets/the_scorched_wastelands/models/item/rustywall.json",
+          "src/main/resources/assets/the_scorched_wastelands/blockstates/rustywall.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/rustywall_inventory.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/rustywall.json"
+        ]
+      },
+      "path": "~/ScorchedCityBlocks"
+    },
+    {
+      "name": "Oldglasspane",
+      "type": "block",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oldglasspane",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_scorched_wastelands/models/block/oldglasspane_side.json",
+          "src/main/resources/assets/the_scorched_wastelands/blockstates/oldglasspane.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/oldglasspane_side_alt.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/oldglasspane_noside_alt.json",
+          "src/main/java/net/mcreator/thescorchedwastelands/block/OldglasspaneBlock.java",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/oldglasspane_post.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/oldglasspane_noside.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/item/oldglasspane.json"
+        ]
+      },
+      "path": "~/ScorchedCityObjects"
+    },
+    {
+      "name": "Oldglass",
+      "type": "block",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oldglass",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_scorched_wastelands/models/block/oldglass.json",
+          "src/main/java/net/mcreator/thescorchedwastelands/block/OldglassBlock.java",
+          "src/main/resources/assets/the_scorched_wastelands/blockstates/oldglass.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/item/oldglass.json"
+        ]
+      },
+      "path": "~/ScorchedCityBlocks"
+    },
+    {
+      "name": "Darkglass",
+      "type": "block",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkglass",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thescorchedwastelands/block/DarkglassBlock.java",
+          "src/main/resources/assets/the_scorched_wastelands/models/item/darkglass.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/darkglass.json",
+          "src/main/resources/assets/the_scorched_wastelands/blockstates/darkglass.json"
+        ]
+      },
+      "path": "~/ScorchedCityObjects"
+    },
+    {
+      "name": "Darkglasspane",
+      "type": "block",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkglasspane",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_scorched_wastelands/models/block/darkglasspane_noside_alt.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/darkglasspane_noside.json",
+          "src/main/java/net/mcreator/thescorchedwastelands/block/DarkglasspaneBlock.java",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/darkglasspane_post.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/item/darkglasspane.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/darkglasspane_side_alt.json",
+          "src/main/resources/assets/the_scorched_wastelands/blockstates/darkglasspane.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/darkglasspane_side.json"
+        ]
+      },
+      "path": "~/ScorchedCityBlocks"
+    },
+    {
+      "name": "Charredmetalplates",
+      "type": "block",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charredmetalplates",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_scorched_wastelands/models/item/charredmetalplates.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/charredmetalplates.json",
+          "src/main/java/net/mcreator/thescorchedwastelands/block/CharredmetalplatesBlock.java",
+          "src/main/resources/assets/the_scorched_wastelands/blockstates/charredmetalplates.json"
+        ]
+      },
+      "path": "~/ScorchedCityObjects"
+    },
+    {
+      "name": "Chainlinkfence",
+      "type": "block",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chainlinkfence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_scorched_wastelands/models/block/chainlinkfence_noside.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/chainlinkfence_side.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/chainlinkfence_side_alt.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/chainlinkfence_noside_alt.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/item/chainlinkfence.json",
+          "src/main/resources/assets/the_scorched_wastelands/blockstates/chainlinkfence.json",
+          "src/main/java/net/mcreator/thescorchedwastelands/block/ChainlinkfenceBlock.java",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/chainlinkfence_post.json"
+        ]
+      },
+      "path": "~/ScorchedCityBlocks"
+    },
+    {
+      "name": "Rustedchainlinkfence",
+      "type": "block",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rustedchainlinkfence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_scorched_wastelands/models/item/rustedchainlinkfence.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/rustedchainlinkfence_post.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/rustedchainlinkfence_noside.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/rustedchainlinkfence_noside_alt.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/rustedchainlinkfence_side_alt.json",
+          "src/main/java/net/mcreator/thescorchedwastelands/block/RustedchainlinkfenceBlock.java",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/rustedchainlinkfence_side.json",
+          "src/main/resources/assets/the_scorched_wastelands/blockstates/rustedchainlinkfence.json"
+        ]
+      },
+      "path": "~/ScorchedCityBlocks"
+    },
+    {
+      "name": "Erodedmetalpanels",
+      "type": "block",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "erodedmetalpanels",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thescorchedwastelands/block/ErodedmetalpanelsBlock.java",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/erodedmetalpanels.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/item/erodedmetalpanels.json",
+          "src/main/resources/assets/the_scorched_wastelands/blockstates/erodedmetalpanels.json"
+        ]
+      },
+      "path": "~/ScorchedCityObjects"
+    },
+    {
+      "name": "Brokenfridge",
+      "type": "block",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brokenfridge",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_scorched_wastelands/blockstates/brokenfridge.json",
+          "src/main/java/net/mcreator/thescorchedwastelands/block/BrokenfridgeBlock.java",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/brokenfridge.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/item/brokenfridge.json"
+        ]
+      },
+      "path": "~/ScorchedCityObjects"
+    },
+    {
+      "name": "Dustywirebox",
+      "type": "block",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dustywirebox",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thescorchedwastelands/block/DustywireboxBlock.java",
+          "src/main/resources/assets/the_scorched_wastelands/models/item/dustywirebox.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/dustywirebox.json",
+          "src/main/resources/assets/the_scorched_wastelands/blockstates/dustywirebox.json"
+        ]
+      },
+      "path": "~/ScorchedCityObjects"
+    },
+    {
+      "name": "Brokensmalldrawer",
+      "type": "block",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brokensmalldrawer",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_scorched_wastelands/models/block/brokensmalldrawer.json",
+          "src/main/java/net/mcreator/thescorchedwastelands/block/BrokensmalldrawerBlock.java",
+          "src/main/resources/assets/the_scorched_wastelands/models/item/brokensmalldrawer.json",
+          "src/main/resources/assets/the_scorched_wastelands/blockstates/brokensmalldrawer.json"
+        ]
+      },
+      "path": "~/ScorchedCityObjects"
+    },
+    {
+      "name": "Brokentelevisionset",
+      "type": "block",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brokentelevisionset",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_scorched_wastelands/models/item/brokentelevisionset.json",
+          "src/main/java/net/mcreator/thescorchedwastelands/block/BrokentelevisionsetBlock.java",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/brokentelevisionset.json",
+          "src/main/resources/assets/the_scorched_wastelands/blockstates/brokentelevisionset.json"
+        ]
+      },
+      "path": "~/ScorchedCityObjects"
+    },
+    {
+      "name": "Bigbrokendrawer",
+      "type": "block",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bigbrokendrawer",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thescorchedwastelands/block/BigbrokendrawerBlock.java",
+          "src/main/resources/assets/the_scorched_wastelands/blockstates/bigbrokendrawer.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/bigbrokendrawer.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/item/bigbrokendrawer.json"
+        ]
+      },
+      "path": "~/ScorchedCityObjects"
+    },
+    {
+      "name": "Brokencounter",
+      "type": "block",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brokencounter",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_scorched_wastelands/models/item/brokencounter.json",
+          "src/main/resources/assets/the_scorched_wastelands/blockstates/brokencounter.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/brokencounter.json",
+          "src/main/java/net/mcreator/thescorchedwastelands/block/BrokencounterBlock.java"
+        ]
+      },
+      "path": "~/ScorchedCityObjects"
+    },
+    {
+      "name": "Brokentrafficpole",
+      "type": "block",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brokentrafficpole",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_scorched_wastelands/models/block/brokentrafficpole.json",
+          "src/main/java/net/mcreator/thescorchedwastelands/block/BrokentrafficpoleBlock.java",
+          "src/main/resources/assets/the_scorched_wastelands/models/item/brokentrafficpole.json",
+          "src/main/resources/assets/the_scorched_wastelands/blockstates/brokentrafficpole.json"
+        ]
+      },
+      "path": "~/ScorchedCityObjects"
+    },
+    {
+      "name": "Brokentrafficlights",
+      "type": "block",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brokentrafficlights",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_scorched_wastelands/models/block/brokentrafficlights.json",
+          "src/main/resources/assets/the_scorched_wastelands/blockstates/brokentrafficlights.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/item/brokentrafficlights.json",
+          "src/main/java/net/mcreator/thescorchedwastelands/block/BrokentrafficlightsBlock.java"
+        ]
+      },
+      "path": "~/ScorchedCityObjects"
+    },
+    {
+      "name": "Smallvent",
+      "type": "block",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smallvent",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_scorched_wastelands/blockstates/smallvent.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/item/smallvent.json",
+          "src/main/java/net/mcreator/thescorchedwastelands/block/SmallventBlock.java",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/smallvent.json"
+        ]
+      },
+      "path": "~/ScorchedCityObjects"
+    },
+    {
+      "name": "Horizontalwreckedvent",
+      "type": "block",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "horizontalwreckedvent",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_scorched_wastelands/models/item/horizontalwreckedvent.json",
+          "src/main/resources/assets/the_scorched_wastelands/blockstates/horizontalwreckedvent.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/horizontalwreckedvent.json",
+          "src/main/java/net/mcreator/thescorchedwastelands/block/HorizontalwreckedventBlock.java"
+        ]
+      },
+      "path": "~/ScorchedCityObjects"
+    },
+    {
+      "name": "Diagonalwreckedvent",
+      "type": "block",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diagonalwreckedvent",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_scorched_wastelands/models/block/diagonalwreckedvent.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/item/diagonalwreckedvent.json",
+          "src/main/resources/assets/the_scorched_wastelands/blockstates/diagonalwreckedvent.json",
+          "src/main/java/net/mcreator/thescorchedwastelands/block/DiagonalwreckedventBlock.java"
+        ]
+      },
+      "path": "~/ScorchedCityObjects"
+    },
+    {
+      "name": "Toxicwastebarrel",
+      "type": "block",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "toxicwastebarrel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_scorched_wastelands/blockstates/toxicwastebarrel.json",
+          "src/main/java/net/mcreator/thescorchedwastelands/block/ToxicwastebarrelBlock.java",
+          "src/main/resources/assets/the_scorched_wastelands/models/item/toxicwastebarrel.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/toxicwastebarrel.json"
+        ]
+      },
+      "path": "~/ScorchedCityObjects"
+    },
+    {
+      "name": "Trashcan",
+      "type": "block",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trashcan",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_scorched_wastelands/blockstates/trashcan.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/item/trashcan.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/trashcan.json",
+          "src/main/java/net/mcreator/thescorchedwastelands/block/TrashcanBlock.java"
+        ]
+      },
+      "path": "~/ScorchedCityObjects"
+    },
+    {
+      "name": "Oldbed",
+      "type": "block",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oldbed",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_scorched_wastelands/blockstates/oldbed.json",
+          "src/main/java/net/mcreator/thescorchedwastelands/block/OldbedBlock.java",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/oldbed.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/item/oldbed.json"
+        ]
+      },
+      "path": "~/ScorchedCityObjects"
+    },
+    {
+      "name": "Rustycabinet",
+      "type": "block",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rustycabinet",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thescorchedwastelands/block/RustycabinetBlock.java",
+          "src/main/resources/assets/the_scorched_wastelands/blockstates/rustycabinet.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/item/rustycabinet.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/rustycabinet.json"
+        ]
+      },
+      "path": "~/ScorchedCityObjects"
+    },
+    {
+      "name": "Rustydoublecabinet",
+      "type": "block",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rustydoublecabinet",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_scorched_wastelands/models/block/rustydoublecabinet.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/item/rustydoublecabinet.json",
+          "src/main/java/net/mcreator/thescorchedwastelands/block/RustydoublecabinetBlock.java",
+          "src/main/resources/assets/the_scorched_wastelands/blockstates/rustydoublecabinet.json"
+        ]
+      },
+      "path": "~/ScorchedCityObjects"
+    },
+    {
+      "name": "Rustedoilbarrel",
+      "type": "block",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rustedoilbarrel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thescorchedwastelands/block/RustedoilbarrelBlock.java",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/rustedoilbarrel.json",
+          "src/main/resources/assets/the_scorched_wastelands/blockstates/rustedoilbarrel.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/item/rustedoilbarrel.json"
+        ]
+      },
+      "path": "~/ScorchedCityObjects"
+    },
+    {
+      "name": "Brokenradiocabinet",
+      "type": "block",
+      "sortid": 148,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brokenradiocabinet",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_scorched_wastelands/blockstates/brokenradiocabinet.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/brokenradiocabinet.json",
+          "src/main/java/net/mcreator/thescorchedwastelands/block/BrokenradiocabinetBlock.java",
+          "src/main/resources/assets/the_scorched_wastelands/models/item/brokenradiocabinet.json"
+        ]
+      },
+      "path": "~/ScorchedCityObjects"
+    },
+    {
+      "name": "Rustedwatertank",
+      "type": "block",
+      "sortid": 149,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rustedwatertank",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_scorched_wastelands/models/item/rustedwatertank.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/rustedwatertank.json",
+          "src/main/java/net/mcreator/thescorchedwastelands/block/RustedwatertankBlock.java",
+          "src/main/resources/assets/the_scorched_wastelands/blockstates/rustedwatertank.json"
+        ]
+      },
+      "path": "~/ScorchedCityObjects"
+    },
+    {
+      "name": "Waitpotion",
+      "type": "potioneffect",
+      "sortid": 150,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "waitpotion",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thescorchedwastelands/potion/WaitpotionMobEffect.java"
+        ]
+      },
+      "path": "~/status effects"
+    },
+    {
+      "name": "Playerjoinsdimencion",
+      "type": "procedure",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "playerjoinsdimencion",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thescorchedwastelands/procedures/PlayerjoinsdimencionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/ScorchedCityMusic"
+    },
+    {
+      "name": "Alsphalfblock",
+      "type": "block",
+      "sortid": 155,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alsphalfblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_scorched_wastelands/blockstates/alsphalfblock.json",
+          "src/main/java/net/mcreator/thescorchedwastelands/block/AlsphalfblockBlock.java",
+          "src/main/resources/assets/the_scorched_wastelands/models/item/alsphalfblock.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/alsphalfblock.json"
+        ]
+      },
+      "path": "~/ScorchedCityBlocks"
+    },
+    {
+      "name": "AnotherMusicProcedure",
+      "type": "procedure",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "another_music_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thescorchedwastelands/procedures/AnotherMusicProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/ScorchedCityMusic"
+    },
+    {
+      "name": "ExtremeHeat",
+      "type": "potioneffect",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "extreme_heat",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thescorchedwastelands/potion/ExtremeHeatMobEffect.java"
+        ]
+      },
+      "path": "~/status effects"
+    },
+    {
+      "name": "HotTemperature",
+      "type": "potioneffect",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hot_temperature",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thescorchedwastelands/potion/HotTemperatureMobEffect.java"
+        ]
+      },
+      "path": "~/status effects"
+    },
+    {
+      "name": "Fearthesun",
+      "type": "procedure",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fearthesun",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thescorchedwastelands/procedures/FearthesunProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/status effects"
+    },
+    {
+      "name": "Coolingepp",
+      "type": "armor",
+      "sortid": 159,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coolingepp",
+      "metadata": {
+        "eh": false,
+        "el": false,
+        "eb": false,
+        "ec": true,
+        "files": [
+          "src/main/java/net/mcreator/thescorchedwastelands/item/CoolingeppItem.java",
+          "src/main/resources/assets/the_scorched_wastelands/models/item/coolingepp_chestplate.json"
+        ]
+      },
+      "path": "~/equipable"
+    },
+    {
+      "name": "Oldpapers",
+      "type": "plant",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oldpapers",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_scorched_wastelands/blockstates/oldpapers.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/item/oldpapers.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/oldpapers.json",
+          "src/main/java/net/mcreator/thescorchedwastelands/world/features/plants/OldpapersFeature.java",
+          "src/main/resources/data/the_scorched_wastelands/forge/biome_modifier/oldpapers_biome_modifier.json",
+          "src/main/java/net/mcreator/thescorchedwastelands/block/OldpapersBlock.java"
+        ]
+      },
+      "path": "~/ScorchedCityObjects"
+    },
+    {
+      "name": "Papers",
+      "type": "block",
+      "sortid": 161,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "papers",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_scorched_wastelands/models/item/papers.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/papers.json",
+          "src/main/java/net/mcreator/thescorchedwastelands/block/PapersBlock.java",
+          "src/main/resources/assets/the_scorched_wastelands/blockstates/papers.json"
+        ]
+      },
+      "path": "~/ScorchedCityObjects"
+    },
+    {
+      "name": "Oldpapers3",
+      "type": "plant",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oldpapers_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thescorchedwastelands/world/features/plants/Oldpapers3Feature.java",
+          "src/main/resources/data/the_scorched_wastelands/forge/biome_modifier/oldpapers_3_biome_modifier.json",
+          "src/main/resources/assets/the_scorched_wastelands/blockstates/oldpapers_3.json",
+          "src/main/java/net/mcreator/thescorchedwastelands/block/Oldpapers3Block.java",
+          "src/main/resources/assets/the_scorched_wastelands/models/item/oldpapers_3.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/oldpapers_3.json"
+        ]
+      },
+      "path": "~/ScorchedCityObjects"
+    },
+    {
+      "name": "Oldpapers2",
+      "type": "plant",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oldpapers_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_scorched_wastelands/models/block/oldpapers_2.json",
+          "src/main/resources/assets/the_scorched_wastelands/blockstates/oldpapers_2.json",
+          "src/main/java/net/mcreator/thescorchedwastelands/world/features/plants/Oldpapers2Feature.java",
+          "src/main/resources/data/the_scorched_wastelands/forge/biome_modifier/oldpapers_2_biome_modifier.json",
+          "src/main/java/net/mcreator/thescorchedwastelands/block/Oldpapers2Block.java",
+          "src/main/resources/assets/the_scorched_wastelands/models/item/oldpapers_2.json"
+        ]
+      },
+      "path": "~/ScorchedCityObjects"
+    },
+    {
+      "name": "Oldpapers1",
+      "type": "plant",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oldpapers_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thescorchedwastelands/block/Oldpapers1Block.java",
+          "src/main/resources/assets/the_scorched_wastelands/models/item/oldpapers_1.json",
+          "src/main/java/net/mcreator/thescorchedwastelands/world/features/plants/Oldpapers1Feature.java",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/oldpapers_1.json",
+          "src/main/resources/data/the_scorched_wastelands/forge/biome_modifier/oldpapers_1_biome_modifier.json",
+          "src/main/resources/assets/the_scorched_wastelands/blockstates/oldpapers_1.json"
+        ]
+      },
+      "path": "~/ScorchedCityObjects"
+    },
+    {
+      "name": "Newmusicmethod",
+      "type": "procedure",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "newmusicmethod",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thescorchedwastelands/procedures/NewmusicmethodProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/ScorchedCityMusic"
+    },
+    {
+      "name": "Junktech",
+      "type": "block",
+      "sortid": 167,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "junktech",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thescorchedwastelands/block/JunktechBlock.java",
+          "src/main/java/net/mcreator/thescorchedwastelands/world/features/ores/JunktechFeature.java",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/junktech.json",
+          "src/main/resources/assets/the_scorched_wastelands/blockstates/junktech.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/item/junktech.json",
+          "src/main/resources/data/the_scorched_wastelands/forge/biome_modifier/junktech_biome_modifier.json"
+        ]
+      },
+      "path": "~/ScorchedCityBlocks"
+    },
+    {
+      "name": "Roughstone",
+      "type": "block",
+      "sortid": 168,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "roughstone",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_scorched_wastelands/models/item/roughstone.json",
+          "src/main/resources/assets/the_scorched_wastelands/blockstates/roughstone.json",
+          "src/main/resources/data/the_scorched_wastelands/forge/biome_modifier/roughstone_biome_modifier.json",
+          "src/main/java/net/mcreator/thescorchedwastelands/world/features/ores/RoughstoneFeature.java",
+          "src/main/java/net/mcreator/thescorchedwastelands/block/RoughstoneBlock.java",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/roughstone.json"
+        ]
+      },
+      "path": "~/ScorchedCityBlocks"
+    },
+    {
+      "name": "Sleekdarkpanel",
+      "type": "block",
+      "sortid": 169,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sleekdarkpanel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thescorchedwastelands/block/SleekdarkpanelBlock.java",
+          "src/main/resources/assets/the_scorched_wastelands/blockstates/sleekdarkpanel.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/sleekdarkpanel.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/item/sleekdarkpanel.json"
+        ]
+      },
+      "path": "~/ScorchedCityBlocks"
+    },
+    {
+      "name": "Pipefence",
+      "type": "block",
+      "sortid": 170,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pipefence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_scorched_wastelands/models/item/pipefence.json",
+          "src/main/resources/assets/the_scorched_wastelands/blockstates/pipefence.json",
+          "src/main/java/net/mcreator/thescorchedwastelands/block/PipefenceBlock.java",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/pipefence.json"
+        ]
+      },
+      "path": "~/ScorchedCityObjects"
+    },
+    {
+      "name": "Brokenwoodenchair",
+      "type": "block",
+      "sortid": 171,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brokenwoodenchair",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_scorched_wastelands/blockstates/brokenwoodenchair.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/item/brokenwoodenchair.json",
+          "src/main/java/net/mcreator/thescorchedwastelands/block/BrokenwoodenchairBlock.java",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/brokenwoodenchair.json"
+        ]
+      },
+      "path": "~/ScorchedCityObjects"
+    },
+    {
+      "name": "Widevent",
+      "type": "block",
+      "sortid": 172,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "widevent",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_scorched_wastelands/blockstates/widevent.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/widevent.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/item/widevent.json",
+          "src/main/java/net/mcreator/thescorchedwastelands/block/WideventBlock.java"
+        ]
+      },
+      "path": "~/ScorchedCityObjects"
+    },
+    {
+      "name": "Rivetlessrustypanel",
+      "type": "block",
+      "sortid": 173,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rivetlessrustypanel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_scorched_wastelands/models/item/rivetlessrustypanel.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/rivetlessrustypanel.json",
+          "src/main/resources/assets/the_scorched_wastelands/blockstates/rivetlessrustypanel.json",
+          "src/main/java/net/mcreator/thescorchedwastelands/block/RivetlessrustypanelBlock.java"
+        ]
+      },
+      "path": "~/ScorchedCityBlocks"
+    },
+    {
+      "name": "Rivetrustyplating",
+      "type": "block",
+      "sortid": 174,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rivetrustyplating",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_scorched_wastelands/blockstates/rivetrustyplating.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/rivetrustyplating.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/item/rivetrustyplating.json",
+          "src/main/java/net/mcreator/thescorchedwastelands/block/RivetrustyplatingBlock.java"
+        ]
+      },
+      "path": "~/ScorchedCityBlocks"
+    },
+    {
+      "name": "Rustygrate",
+      "type": "block",
+      "sortid": 175,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rustygrate",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thescorchedwastelands/block/RustygrateBlock.java",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/rustygrate.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/item/rustygrate.json",
+          "src/main/resources/assets/the_scorched_wastelands/blockstates/rustygrate.json"
+        ]
+      },
+      "path": "~/ScorchedCityBlocks"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "dj",
+      "type": "string",
+      "scope": "world",
+      "value": ""
+    },
+    {
+      "name": "jukeboxtimer",
+      "type": "number",
+      "scope": "world",
+      "value": "0"
+    },
+    {
+      "name": "skipvote",
+      "type": "logic",
+      "scope": "world",
+      "value": "false"
+    }
+  ],
+  "sound_elements": [
+    {
+      "name": "junkfootstep",
+      "files": [
+        "footstep_bone"
+      ],
+      "category": "neutral",
+      "subtitle": "junkfootstep"
+    },
+    {
+      "name": "bodyeletric",
+      "files": [
+        "body-electric-loop"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    },
+    {
+      "name": "bodyeletricmusic",
+      "files": [
+        "body-electric-loop"
+      ],
+      "category": "music",
+      "subtitle": ""
+    },
+    {
+      "name": "aridloop",
+      "files": [
+        "arid_day"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    },
+    {
+      "name": "voices",
+      "files": [
+        "atropusambiance"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "rarevoices",
+      "files": [
+        "atropusambiance5"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "nomads",
+      "files": [
+        "nomads"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "desolation",
+      "files": [
+        "nomads"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    },
+    {
+      "name": "ultramarine",
+      "files": [
+        "ultramarine-loop"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    },
+    {
+      "name": "desert_exploration",
+      "files": [
+        "desert-exploration2"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    },
+    {
+      "name": "inviolate",
+      "files": [
+        "inviolate-loop"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    },
+    {
+      "name": "lava_exploration",
+      "files": [
+        "lava-exploration1"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    },
+    {
+      "name": "blizzard",
+      "files": [
+        "blizzard"
+      ],
+      "category": "weather",
+      "subtitle": ""
+    },
+    {
+      "name": "crystal_exploration_1",
+      "files": [
+        "crystal-exploration1"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    },
+    {
+      "name": "crystal_exploration_2",
+      "files": [
+        "crystal-exploration2"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    },
+    {
+      "name": "lava_exploration_2",
+      "files": [
+        "lava-exploration2"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "subtitles.lava_exploration": "",
+      "block.the_scorched_wastelands.erodedmetalpanels": "Eroded metal panels",
+      "block.the_scorched_wastelands.slopedrustpanel": "Sloped rust panel",
+      "block.the_scorched_wastelands.scorchedcargoplating": "Scorched cargo plating",
+      "block.the_scorched_wastelands.oldglass": "Old glass",
+      "item.the_scorched_wastelands.coolingepp_boots": "Coolingepp Boots",
+      "block.the_scorched_wastelands.roughstone": "Rough stone",
+      "block.the_scorched_wastelands.wreckedcrate": "Wrecked crate",
+      "block.the_scorched_wastelands.wreckedvent": "Wrecked Vent",
+      "block.the_scorched_wastelands.sign_pole": "Sign Pole",
+      "block.the_scorched_wastelands.bar_support": "Bar Support",
+      "block.the_scorched_wastelands.rustydoublecabinet": "Rusted double cabinet",
+      "block.the_scorched_wastelands.metalsheets": "Metal sheets",
+      "block.the_scorched_wastelands.dustywirebox": "Dusty wire box",
+      "block.the_scorched_wastelands.papers": "Old news papers",
+      "block.the_scorched_wastelands.dustygrate": "Dusty grate",
+      "subtitles.aridloop": "",
+      "subtitles.desolation": "",
+      "block.the_scorched_wastelands.rustedcrate": "Big rusted crate",
+      "gui.the_scorched_wastelands.rusted_locker.label_rusted_locker": "Rusted Locker",
+      "block.the_scorched_wastelands.brockeneletricbox": "Brocken eletric box",
+      "block.the_scorched_wastelands.rustedboiler": "Rusted boiler",
+      "block.the_scorched_wastelands.rusty_locker": "Rusty Locker",
+      "gui.the_scorched_wastelands.rustedcrate_1gui.label_big_rusted_crate": "Big rusted crate",
+      "subtitles.rarevoices": "",
+      "block.the_scorched_wastelands.oldpapers": "Old papers",
+      "block.the_scorched_wastelands.grayplatedmetal": "Gray plated beam",
+      "subtitles.crystal_exploration_2": "",
+      "block.the_scorched_wastelands.rustymetalplaqueslab": "Rusty metal plaque slab",
+      "subtitles.crystal_exploration_1": "",
+      "block.the_scorched_wastelands.dustywood": "Dustywood",
+      "subtitles.junkfootstep": "junkfootstep",
+      "block.the_scorched_wastelands.scorched_bush": "Scorched Bush",
+      "block.the_scorched_wastelands.bigbrokendrawer": "Big broken drawer",
+      "block.the_scorched_wastelands.widevent": "Wide vent",
+      "block.the_scorched_wastelands.wreckedconsole": "Wrecked console",
+      "block.the_scorched_wastelands.toxicwastebarrel": "Toxic waste barrel",
+      "subtitles.nomads": "",
+      "block.the_scorched_wastelands.olddebris": "Old debris",
+      "itemGroup.tabscorched_wastelands": "Scorched Wastelands",
+      "block.the_scorched_wastelands.metalplaquestairs": "Metal plaque stairs",
+      "block.the_scorched_wastelands.brokentable": "Broken table",
+      "effect.the_scorched_wastelands.extreme_heat": "Extreme Heat",
+      "block.the_scorched_wastelands.rustyboltedplates": "Rusty bolted plates",
+      "effect.waitpotion": "wait_potion",
+      "block.the_scorched_wastelands.dumpster": "Dumpster",
+      "block.the_scorched_wastelands.scorchedjunk": "Scorchedgrass",
+      "block.the_scorched_wastelands.decayedshelf": "Decayedshelf",
+      "block.the_scorched_wastelands.rustedwatertank": "Rusted water tank",
+      "block.the_scorched_wastelands.utilitypole": "Utility pole",
+      "block.the_scorched_wastelands.rustedchainlinkfence": "Rusted chain link fence",
+      "block.the_scorched_wastelands.smashedscreen": "Smashed screen",
+      "block.the_scorched_wastelands.smallvent": "Small vent",
+      "block.the_scorched_wastelands.scorched_bench": "Scorched Bench",
+      "block.the_scorched_wastelands.sign_top": "Sign Top",
+      "block.the_scorched_wastelands.junktech": "Junk tech ",
+      "block.the_scorched_wastelands.brokenwoodenchair": "Broken wooden chair",
+      "block.the_scorched_wastelands.oldbed": "Old bed",
+      "block.the_scorched_wastelands.platedmetalslab": "Platedmetalslab",
+      "block.the_scorched_wastelands.rusted_broken_fan": "Rusted broken fan",
+      "block.the_scorched_wastelands.supplies_shelf": "Supplies Shelf",
+      "block.the_scorched_wastelands.rustedchair": "Rusted chair",
+      "block.the_scorched_wastelands.platedmetal": "Plated metal",
+      "subtitles.ultramarine": "",
+      "subtitles.bodyeletricmusic": "",
+      "block.the_scorched_wastelands.red_dry_sand": "Dry Sand",
+      "itemGroup.tabwrecked_objects": "Wrecked Objects",
+      "item.the_scorched_wastelands.heavy_dull_blade": "Heavy Dull Blade",
+      "block.the_scorched_wastelands.littletable": "Littletable",
+      "block.the_scorched_wastelands.brokentrafficlights": "Broken traffic lights",
+      "block.the_scorched_wastelands.scorchedplating": "Scorchedplating",
+      "block.the_scorched_wastelands.charredmetalplates": "Charred metal plates",
+      "block.the_scorched_wastelands.rustedoilbarrel": "Rusted oil barrel",
+      "block.the_scorched_wastelands.oldglasspane": "Old glass pane",
+      "block.the_scorched_wastelands.pipefence": "Pipe fence",
+      "gui.the_scorched_wastelands.smallrustedcrategui.label_small_rusted_crate": "small rusted crate",
+      "block.the_scorched_wastelands.horizontalwreckedvent": "Horizontal wrecked vent",
+      "block.the_scorched_wastelands.brokenradiocabinet": "Broken radio cabinet",
+      "block.the_scorched_wastelands.brokentelevisionset": "Broken television set",
+      "subtitles.lava_exploration_2": "",
+      "block.the_scorched_wastelands.brokenregister": "Broken register",
+      "block.the_scorched_wastelands.diagonalwreckedvent": "Diagonal wrecked vent",
+      "block.the_scorched_wastelands.sleekdarkpanel": "Sleek dark panel",
+      "block.the_scorched_wastelands.scorchedhazardtape": "Scorched hazard tape",
+      "subtitles.desert_exploration": "",
+      "effect.the_scorched_wastelands.hot_temperature": "Hot Temperature",
+      "block.the_scorched_wastelands.dryrock": "Dryrock",
+      "block.the_scorched_wastelands.rustymetalplaques": "Rusty metal plaques",
+      "block.the_scorched_wastelands.rivetlessrustypanel": "Rivetless rusty panel",
+      "block.the_scorched_wastelands.trashcan": "Trash can",
+      "block.the_scorched_wastelands.charredmetalplating": "Charred metal plating",
+      "block.the_scorched_wastelands.rustytech": "Rusty tech",
+      "block.the_scorched_wastelands.darkglass": "Dark glass",
+      "block.the_scorched_wastelands.rustedplates": "Rusted plates",
+      "block.the_scorched_wastelands.poletop": "Pole top",
+      "block.the_scorched_wastelands.rustymetal": "Rusty metal",
+      "block.the_scorched_wastelands.copperrebbar": "Copperrebbar",
+      "block.the_scorched_wastelands.rustygrate": "Rusty grate",
+      "item.the_scorched_wastelands.testdimension": "Teleporter Core",
+      "block.the_scorched_wastelands.ironframes": "Iron frames",
+      "block.the_scorched_wastelands.wreckedcontrolpanel": "Wrecked control panel",
+      "subtitles.inviolate": "",
+      "block.the_scorched_wastelands.smallrustedcrate": "Small rusted crate",
+      "block.the_scorched_wastelands.hangingwires": "Hanging wires",
+      "block.the_scorched_wastelands.brokenterminal": "Broken terminal",
+      "block.the_scorched_wastelands.rustymetalslab": "Rusty metal slab",
+      "block.the_scorched_wastelands.rusted_table": "Rusted Table",
+      "effect.the_scorched_wastelands.waitpotion": "wait_potion",
+      "block.the_scorched_wastelands.wreckedvendingmachine": "Wrecked vending machine",
+      "biome.the_scorched_wastelands.testplains": "scorcheddunes1",
+      "block.the_scorched_wastelands.drydirt": "Dry dirt",
+      "block.the_scorched_wastelands.metaliccolumn": "Metalic column",
+      "effect.extreme_heat": "Extreme Heat",
+      "subtitles.voices": "",
+      "block.the_scorched_wastelands.darkglasspane": "Dark glass pane",
+      "block.the_scorched_wastelands.brokenfridge": "Broken fridge",
+      "block.the_scorched_wastelands.oldpapers_1": "Old papers 1",
+      "block.the_scorched_wastelands.chainlinkfence": "Chain link fence",
+      "block.the_scorched_wastelands.oldpapers_3": "Old papers 3",
+      "block.the_scorched_wastelands.oldpapers_2": "Old papers 2",
+      "block.the_scorched_wastelands.dustycircuit": "Dusty circuit",
+      "subtitles.bodyeletric": "",
+      "block.the_scorched_wastelands.brokencounter": "Broken counter",
+      "item.the_scorched_wastelands.coolingepp_chestplate": "Cooling EPP",
+      "item.the_scorched_wastelands.coolingepp_leggings": "",
+      "block.the_scorched_wastelands.rustyscafolding": "Rusty scaffolding",
+      "block.the_scorched_wastelands.scorchedtapumme": "Scorched tapumme",
+      "block.the_scorched_wastelands.rivetrustyplating": "Rivet rusty plating",
+      "block.the_scorched_wastelands.metalplaqueslab": "Metal plaque slab",
+      "block.the_scorched_wastelands.alsphalfblock": "Scorched alsphalf block",
+      "effect.hot_temperature": "Hot Temperature",
+      "block.the_scorched_wastelands.brokensmalldrawer": "Broken small drawer",
+      "block.the_scorched_wastelands.rustycabinet": "Rusted cabinet",
+      "block.the_scorched_wastelands.makeshiftmetalsheets": "Makeshift metal sheets",
+      "block.the_scorched_wastelands.rustywall": "Rusty metal wall",
+      "subtitles.blizzard": "",
+      "block.the_scorched_wastelands.wrecked_tv": "Wrecked TV",
+      "biome.the_scorched_wastelands.testplains_3": "scorcheddunes3",
+      "biome.the_scorched_wastelands.testplains_2": "scorcheddunes2",
+      "block.the_scorched_wastelands.rustedbars": "Rusted bars",
+      "block.the_scorched_wastelands.metalplaques": "Metal plaques",
+      "biome.the_scorched_wastelands.farmontains": "Farmontains",
+      "block.the_scorched_wastelands.debrisslab": "Debris slab",
+      "block.the_scorched_wastelands.junkpile": "Junk pile",
+      "item.the_scorched_wastelands.coolingepp_helmet": "a",
+      "block.the_scorched_wastelands.scorched_debris": "Scorched Debris",
+      "block.the_scorched_wastelands.rustymetalplaquestairs": "Rusty metal plaque stairs",
+      "block.the_scorched_wastelands.brokentrafficpole": "Broken traffic pole"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "ScorchedCityBiomes",
+        "children": []
+      },
+      {
+        "name": "ScorchedCityObjects",
+        "children": []
+      },
+      {
+        "name": "ScorchedCityBlocks",
+        "children": []
+      },
+      {
+        "name": "ScorchedCityStructures",
+        "children": []
+      },
+      {
+        "name": "ScorchedCityMusic",
+        "children": []
+      },
+      {
+        "name": "weapons",
+        "children": []
+      },
+      {
+        "name": "status effects",
+        "children": []
+      },
+      {
+        "name": "dimensions",
+        "children": []
+      },
+      {
+        "name": "GUIs",
+        "children": []
+      },
+      {
+        "name": "equipable",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "the_scorched_wastelands",
+    "modName": "The Scorched Wastelands",
+    "version": "1.0.0",
+    "author": "Usuario, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.thescorchedwastelands",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300110610
+}
