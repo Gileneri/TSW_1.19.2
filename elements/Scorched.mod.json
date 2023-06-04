@@ -1,0 +1,55 @@
+{
+  "_fv": 39,
+  "_type": "dimension",
+  "definition": {
+    "biomesInDimension": [
+      {
+        "value": "CUSTOM:Scorchedlowplains"
+      },
+      {
+        "value": "CUSTOM:Scorchedmidplains"
+      },
+      {
+        "value": "CUSTOM:Scorchedmountains"
+      },
+      {
+        "value": "CUSTOM:Scorchedhighmountains"
+      }
+    ],
+    "worldGenType": "Normal world gen",
+    "mainFillerBlock": {
+      "value": "CUSTOM:Dryrock"
+    },
+    "fluidBlock": {
+      "value": "Blocks.AIR"
+    },
+    "airColor": {
+      "value": -6730970,
+      "falpha": 0.0
+    },
+    "canRespawnHere": false,
+    "hasFog": false,
+    "isDark": true,
+    "doesWaterVaporize": true,
+    "sleepResult": "DENY",
+    "hasSkyLight": true,
+    "imitateOverworldBehaviour": false,
+    "portalFrame": {
+      "value": "CUSTOM:Dryrock"
+    },
+    "portalParticles": {
+      "value": "ASH"
+    },
+    "portalLuminance": 0,
+    "portalSound": {
+      "value": "CUSTOM:rarevoices"
+    },
+    "igniterName": "Beam_down_scorched",
+    "igniterTab": {
+      "value": "CUSTOM:ScorchedWastelands"
+    },
+    "texture": "teleporter_core",
+    "portalTexture": "sun",
+    "enablePortal": true
+  }
+}

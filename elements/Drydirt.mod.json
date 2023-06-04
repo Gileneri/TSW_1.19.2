@@ -18,7 +18,7 @@
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,
-    "hasTransparency": true,
+    "hasTransparency": false,
     "connectedSides": false,
     "transparencyType": "SOLID",
     "disableOffset": false,
@@ -118,21 +118,20 @@
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
     "spawnWorldTypes": [
-      "Surface",
-      "CUSTOM:Testdimension"
+      "CUSTOM:Scorched"
     ],
     "restrictionBiomes": [
       {
-        "value": "CUSTOM:Farmontains"
+        "value": "CUSTOM:Scorchedhighmountains"
       },
       {
-        "value": "CUSTOM:Testplains"
+        "value": "CUSTOM:Scorchedlowplains"
       },
       {
-        "value": "CUSTOM:Testplains2"
+        "value": "CUSTOM:Scorchedmidplains"
       },
       {
-        "value": "CUSTOM:Testplains3"
+        "value": "CUSTOM:Scorchedmountains"
       }
     ],
     "blocksToReplace": [
@@ -146,7 +145,7 @@
     "generationShape": "UNIFORM",
     "frequencyPerChunks": 15,
     "frequencyOnChunk": 30,
-    "minGenerateHeight": 50,
-    "maxGenerateHeight": 128
+    "minGenerateHeight": 20,
+    "maxGenerateHeight": 200
   }
 }

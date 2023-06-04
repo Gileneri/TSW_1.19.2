@@ -1,0 +1,9 @@
+{
+  "parent": "the_scorched_wastelands:custom/large_broken_mirror",
+  "textures": {
+    "all": "the_scorched_wastelands:blocks/broken_large_mirror",
+    "particle": "the_scorched_wastelands:blocks/broken_large_mirror",
+    "0": "the_scorched_wastelands:blocks/broken_large_mirror"
+  },
+  "render_type": "translucent"
+}

@@ -40,11 +40,11 @@ public class OlddebrisFeature extends OreFeature {
 						OreConfiguration.target(new BlockStateMatchTest(TheScorchedWastelandsModBlocks.JUNKPILE.get().defaultBlockState()), TheScorchedWastelandsModBlocks.OLDDEBRIS.get().defaultBlockState()),
 						OreConfiguration.target(new BlockStateMatchTest(TheScorchedWastelandsModBlocks.DRYDIRT.get().defaultBlockState()), TheScorchedWastelandsModBlocks.OLDDEBRIS.get().defaultBlockState())), 15));
 		PLACED_FEATURE = PlacementUtils.register("the_scorched_wastelands:olddebris", CONFIGURED_FEATURE,
-				List.of(CountPlacement.of(12), InSquarePlacement.spread(), HeightRangePlacement.uniform(VerticalAnchor.absolute(55), VerticalAnchor.absolute(128)), BiomeFilter.biome()));
+				List.of(CountPlacement.of(12), InSquarePlacement.spread(), HeightRangePlacement.uniform(VerticalAnchor.absolute(20), VerticalAnchor.absolute(200)), BiomeFilter.biome()));
 		return FEATURE;
 	}
 
-	private final Set<ResourceKey<Level>> generate_dimensions = Set.of(Level.OVERWORLD, ResourceKey.create(Registry.DIMENSION_REGISTRY, new ResourceLocation("the_scorched_wastelands:testdimension")));
+	private final Set<ResourceKey<Level>> generate_dimensions = Set.of(ResourceKey.create(Registry.DIMENSION_REGISTRY, new ResourceLocation("the_scorched_wastelands:scorched")));
 
 	public OlddebrisFeature() {
 		super(OreConfiguration.CODEC);

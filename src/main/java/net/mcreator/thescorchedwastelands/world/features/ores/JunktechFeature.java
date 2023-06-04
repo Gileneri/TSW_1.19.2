@@ -36,14 +36,13 @@ public class JunktechFeature extends OreFeature {
 		FEATURE = new JunktechFeature();
 		CONFIGURED_FEATURE = FeatureUtils.register("the_scorched_wastelands:junktech", FEATURE,
 				new OreConfiguration(List.of(OreConfiguration.target(new BlockStateMatchTest(TheScorchedWastelandsModBlocks.RED_DRY_SAND.get().defaultBlockState()), TheScorchedWastelandsModBlocks.JUNKTECH.get().defaultBlockState()),
-						OreConfiguration.target(new BlockStateMatchTest(TheScorchedWastelandsModBlocks.DRYDIRT.get().defaultBlockState()), TheScorchedWastelandsModBlocks.JUNKTECH.get().defaultBlockState()),
-						OreConfiguration.target(new BlockStateMatchTest(TheScorchedWastelandsModBlocks.DRYROCK.get().defaultBlockState()), TheScorchedWastelandsModBlocks.JUNKTECH.get().defaultBlockState())), 15));
+						OreConfiguration.target(new BlockStateMatchTest(TheScorchedWastelandsModBlocks.DRYDIRT.get().defaultBlockState()), TheScorchedWastelandsModBlocks.JUNKTECH.get().defaultBlockState())), 15));
 		PLACED_FEATURE = PlacementUtils.register("the_scorched_wastelands:junktech", CONFIGURED_FEATURE,
-				List.of(CountPlacement.of(5), InSquarePlacement.spread(), HeightRangePlacement.uniform(VerticalAnchor.absolute(60), VerticalAnchor.absolute(120)), BiomeFilter.biome()));
+				List.of(CountPlacement.of(5), InSquarePlacement.spread(), HeightRangePlacement.uniform(VerticalAnchor.absolute(20), VerticalAnchor.absolute(200)), BiomeFilter.biome()));
 		return FEATURE;
 	}
 
-	private final Set<ResourceKey<Level>> generate_dimensions = Set.of(ResourceKey.create(Registry.DIMENSION_REGISTRY, new ResourceLocation("the_scorched_wastelands:testdimension")));
+	private final Set<ResourceKey<Level>> generate_dimensions = Set.of(ResourceKey.create(Registry.DIMENSION_REGISTRY, new ResourceLocation("the_scorched_wastelands:scorched")));
 
 	public JunktechFeature() {
 		super(OreConfiguration.CODEC);

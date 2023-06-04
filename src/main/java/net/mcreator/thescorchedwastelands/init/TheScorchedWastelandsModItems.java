@@ -14,6 +14,7 @@ import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.thescorchedwastelands.item.TestdimensionItem;
+import net.mcreator.thescorchedwastelands.item.ScorchedItem;
 import net.mcreator.thescorchedwastelands.item.HeavyDullBladeItem;
 import net.mcreator.thescorchedwastelands.item.CoolingeppItem;
 import net.mcreator.thescorchedwastelands.TheScorchedWastelandsMod;
@@ -134,6 +135,13 @@ public class TheScorchedWastelandsModItems {
 	public static final RegistryObject<Item> RIVETLESSRUSTYPANEL = block(TheScorchedWastelandsModBlocks.RIVETLESSRUSTYPANEL, TheScorchedWastelandsModTabs.TAB_SCORCHED_WASTELANDS);
 	public static final RegistryObject<Item> RIVETRUSTYPLATING = block(TheScorchedWastelandsModBlocks.RIVETRUSTYPLATING, TheScorchedWastelandsModTabs.TAB_SCORCHED_WASTELANDS);
 	public static final RegistryObject<Item> RUSTYGRATE = block(TheScorchedWastelandsModBlocks.RUSTYGRATE, TheScorchedWastelandsModTabs.TAB_SCORCHED_WASTELANDS);
+	public static final RegistryObject<Item> SCORCHED = REGISTRY.register("scorched", () -> new ScorchedItem());
+	public static final RegistryObject<Item> LARGEBROKENMIRROR = block(TheScorchedWastelandsModBlocks.LARGEBROKENMIRROR, TheScorchedWastelandsModTabs.TAB_WRECKED_OBJECTS);
+	public static final RegistryObject<Item> SMALLBROKENMIRROR = block(TheScorchedWastelandsModBlocks.SMALLBROKENMIRROR, TheScorchedWastelandsModTabs.TAB_SCORCHED_WASTELANDS);
+	public static final RegistryObject<Item> BASICTOILET = block(TheScorchedWastelandsModBlocks.BASICTOILET, TheScorchedWastelandsModTabs.TAB_WRECKED_OBJECTS);
+	public static final RegistryObject<Item> RUSTYSHOWER = block(TheScorchedWastelandsModBlocks.RUSTYSHOWER, TheScorchedWastelandsModTabs.TAB_WRECKED_OBJECTS);
+	public static final RegistryObject<Item> FLICKERINGLIGHTBULB = block(TheScorchedWastelandsModBlocks.FLICKERINGLIGHTBULB, TheScorchedWastelandsModTabs.TAB_WRECKED_OBJECTS);
+	public static final RegistryObject<Item> SCORCHEDTIRES = block(TheScorchedWastelandsModBlocks.SCORCHEDTIRES, TheScorchedWastelandsModTabs.TAB_WRECKED_OBJECTS);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

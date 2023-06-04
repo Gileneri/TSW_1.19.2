@@ -1,8 +1,8 @@
 Java Launcher: C:\Program Files\Pylo\MCreator\jdk\bin\java.exe
-Arguments: '--in-jar, C:\Program Files\The_Scorched_Wastelands_2023.1\build\libs\modid-1.0.jar, --out-jar, C:\Program Files\The_Scorched_Wastelands_2023.1\build\reobfJar\output.jar, --srg-in, C:\Program Files\The_Scorched_Wastelands_2023.1\build\createMcpToSrg\output.tsrg, --live'
+Arguments: '--in-jar, C:\The_Scorched_Wastelands_2023.1\build\libs\modid-1.0.jar, --out-jar, C:\The_Scorched_Wastelands_2023.1\build\reobfJar\output.jar, --srg-in, C:\The_Scorched_Wastelands_2023.1\build\createMcpToSrg\output.tsrg, --live'
 Classpath:
  - C:\Users\Usuario\.mcreator\gradle\caches\forge_gradle\maven_downloader\net\md-5\SpecialSource\1.11.0\SpecialSource-1.11.0-shaded.jar
- - C:\Program Files\The_Scorched_Wastelands_2023.1\build\fg_cache\net\minecraftforge\forge\1.19.2-43.2.0_mapped_official_1.19.2\forge-1.19.2-43.2.0_mapped_official_1.19.2.jar
+ - C:\The_Scorched_Wastelands_2023.1\build\fg_cache\net\minecraftforge\forge\1.19.2-43.2.0_mapped_official_1.19.2\forge-1.19.2-43.2.0_mapped_official_1.19.2-recomp.jar
  - C:\Users\Usuario\.mcreator\gradle\caches\forge_gradle\minecraft_repo\versions\1.19.2\client-extra.jar
  - C:\Users\Usuario\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlloader\1.19.2-43.2.0\3e6e8b7b5e1dbc6ee01a20f74675f223b64c7847\fmlloader-1.19.2-43.2.0.jar
  - C:\Users\Usuario\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\JarJarSelector\0.3.16\2a31421fb5e267249da103a644f23afb43d158af\JarJarSelector-0.3.16.jar
@@ -114,7 +114,7 @@ Classpath:
  - C:\Users\Usuario\.mcreator\gradle\caches\modules-2\files-2.1\org.antlr\antlr-runtime\3.5.2\cd9cd41361c155f3af0f653009dcecb08d8b4afd\antlr-runtime-3.5.2.jar
  - C:\Users\Usuario\.mcreator\gradle\caches\modules-2\files-2.1\org.abego.treelayout\org.abego.treelayout.core\1.0.3\457216e8e6578099ae63667bb1e4439235892028\org.abego.treelayout.core-1.0.3.jar
  - C:\Users\Usuario\.mcreator\gradle\caches\modules-2\files-2.1\org.glassfish\javax.json\1.0.4\3178f73569fd7a1e5ffc464e680f7a8cc784b85a\javax.json-1.0.4.jar
-Working directory: C:\Program Files\The_Scorched_Wastelands_2023.1\build\reobfJar
+Working directory: C:\The_Scorched_Wastelands_2023.1\build\reobfJar
 Main class: net.md_5.specialsource.SpecialSource
 ====================================
 Loading mappings

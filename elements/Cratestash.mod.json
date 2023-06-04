@@ -13,19 +13,21 @@
     "spawnXOffset": 0,
     "spawnZOffset": 0,
     "spawnWorldTypes": [
-      "Surface",
-      "CUSTOM:Testdimension"
+      "CUSTOM:Scorched"
     ],
     "restrictionBlocks": [],
     "restrictionBiomes": [
       {
-        "value": "CUSTOM:Testplains2"
+        "value": "CUSTOM:Scorchedhighmountains"
       },
       {
-        "value": "CUSTOM:Testplains"
+        "value": "CUSTOM:Scorchedlowplains"
       },
       {
-        "value": "CUSTOM:Testplains3"
+        "value": "CUSTOM:Scorchedmidplains"
+      },
+      {
+        "value": "CUSTOM:Scorchedmountains"
       }
     ],
     "ignoreBlocks": "STRUCTURE_BLOCK"

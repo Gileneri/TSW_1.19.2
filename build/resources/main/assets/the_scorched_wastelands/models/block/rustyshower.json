@@ -1,0 +1,9 @@
+{
+  "parent": "the_scorched_wastelands:custom/rusty_shower",
+  "textures": {
+    "all": "the_scorched_wastelands:blocks/rusty_shower",
+    "particle": "the_scorched_wastelands:blocks/rusty_shower",
+    "0": "the_scorched_wastelands:blocks/rusty_shower"
+  },
+  "render_type": "translucent"
+}

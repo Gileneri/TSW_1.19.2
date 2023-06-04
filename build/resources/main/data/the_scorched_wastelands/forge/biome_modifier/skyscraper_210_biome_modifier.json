@@ -1,0 +1,9 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "the_scorched_wastelands:scorchedlowplains",
+    "the_scorched_wastelands:scorchedmidplains"
+  ],
+  "features": "the_scorched_wastelands:skyscraper_210",
+  "step": "surface_structures"
+}

@@ -82,6 +82,11 @@
     "the_scorched_wastelands:widevent",
     "the_scorched_wastelands:rivetlessrustypanel",
     "the_scorched_wastelands:rivetrustyplating",
-    "the_scorched_wastelands:rustygrate"
+    "the_scorched_wastelands:rustygrate",
+    "the_scorched_wastelands:largebrokenmirror",
+    "the_scorched_wastelands:smallbrokenmirror",
+    "the_scorched_wastelands:basictoilet",
+    "the_scorched_wastelands:rustyshower",
+    "the_scorched_wastelands:scorchedtires"
   ]
 }

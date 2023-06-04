@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "the_scorched_wastelands:blocks/rustytech7",
+    "up": "the_scorched_wastelands:blocks/rustytech7",
+    "north": "the_scorched_wastelands:blocks/rustytech7",
+    "east": "the_scorched_wastelands:blocks/rustytech7",
+    "south": "the_scorched_wastelands:blocks/rustytech7",
+    "west": "the_scorched_wastelands:blocks/rustytech7",
+    "particle": "the_scorched_wastelands:blocks/rustytech7"
+  }
+}

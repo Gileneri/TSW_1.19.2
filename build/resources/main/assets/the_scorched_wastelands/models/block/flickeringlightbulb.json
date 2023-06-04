@@ -1,0 +1,9 @@
+{
+  "parent": "the_scorched_wastelands:custom/flickering_lightbulb",
+  "textures": {
+    "all": "the_scorched_wastelands:blocks/flickering_lightbulb",
+    "particle": "the_scorched_wastelands:blocks/flickering_lightbulb",
+    "0": "the_scorched_wastelands:blocks/flickering_lightbulb"
+  },
+  "render_type": "translucent"
+}

@@ -29,6 +29,8 @@ import net.mcreator.thescorchedwastelands.world.features.ores.DryrockFeature;
 import net.mcreator.thescorchedwastelands.world.features.ores.DrydirtFeature;
 import net.mcreator.thescorchedwastelands.world.features.Utilitypole2Feature;
 import net.mcreator.thescorchedwastelands.world.features.TelephonepoleFeature;
+import net.mcreator.thescorchedwastelands.world.features.Skyscraper210Feature;
+import net.mcreator.thescorchedwastelands.world.features.Skyscraper110Feature;
 import net.mcreator.thescorchedwastelands.world.features.RustystreetFeature;
 import net.mcreator.thescorchedwastelands.world.features.RustysidewalkFeature;
 import net.mcreator.thescorchedwastelands.world.features.PileofdebrisFeature;
@@ -72,4 +74,6 @@ public class TheScorchedWastelandsModFeatures {
 	public static final RegistryObject<Feature<?>> OLDPAPERS_1 = REGISTRY.register("oldpapers_1", Oldpapers1Feature::feature);
 	public static final RegistryObject<Feature<?>> JUNKTECH = REGISTRY.register("junktech", JunktechFeature::feature);
 	public static final RegistryObject<Feature<?>> ROUGHSTONE = REGISTRY.register("roughstone", RoughstoneFeature::feature);
+	public static final RegistryObject<Feature<?>> SKYSCRAPER_110 = REGISTRY.register("skyscraper_110", Skyscraper110Feature::feature);
+	public static final RegistryObject<Feature<?>> SKYSCRAPER_210 = REGISTRY.register("skyscraper_210", Skyscraper210Feature::feature);
 }

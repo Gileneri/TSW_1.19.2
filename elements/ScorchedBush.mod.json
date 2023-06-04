@@ -92,21 +92,14 @@
     "isBonemealable": false,
     "frequencyOnChunks": 3,
     "spawnWorldTypes": [
-      "Surface",
-      "CUSTOM:Testdimension"
+      "CUSTOM:Scorched"
     ],
     "restrictionBiomes": [
       {
-        "value": "CUSTOM:Farmontains"
+        "value": "CUSTOM:Scorchedlowplains"
       },
       {
-        "value": "CUSTOM:Testplains"
-      },
-      {
-        "value": "CUSTOM:Testplains2"
-      },
-      {
-        "value": "CUSTOM:Testplains3"
+        "value": "CUSTOM:Scorchedmidplains"
       }
     ],
     "patchSize": 2,

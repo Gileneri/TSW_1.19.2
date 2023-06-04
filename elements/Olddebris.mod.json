@@ -118,18 +118,14 @@
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
     "spawnWorldTypes": [
-      "Surface",
-      "CUSTOM:Testdimension"
+      "CUSTOM:Scorched"
     ],
     "restrictionBiomes": [
       {
-        "value": "CUSTOM:Testplains"
+        "value": "CUSTOM:Scorchedlowplains"
       },
       {
-        "value": "CUSTOM:Testplains2"
-      },
-      {
-        "value": "CUSTOM:Testplains3"
+        "value": "CUSTOM:Scorchedmidplains"
       }
     ],
     "blocksToReplace": [
@@ -149,7 +145,7 @@
     "generationShape": "UNIFORM",
     "frequencyPerChunks": 12,
     "frequencyOnChunk": 15,
-    "minGenerateHeight": 55,
-    "maxGenerateHeight": 128
+    "minGenerateHeight": 20,
+    "maxGenerateHeight": 200
   }
 }

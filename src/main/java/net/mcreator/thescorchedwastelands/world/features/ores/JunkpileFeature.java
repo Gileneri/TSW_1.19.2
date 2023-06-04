@@ -38,11 +38,11 @@ public class JunkpileFeature extends OreFeature {
 				new OreConfiguration(List.of(OreConfiguration.target(new BlockStateMatchTest(TheScorchedWastelandsModBlocks.RED_DRY_SAND.get().defaultBlockState()), TheScorchedWastelandsModBlocks.JUNKPILE.get().defaultBlockState()),
 						OreConfiguration.target(new BlockStateMatchTest(TheScorchedWastelandsModBlocks.DRYROCK.get().defaultBlockState()), TheScorchedWastelandsModBlocks.JUNKPILE.get().defaultBlockState())), 20));
 		PLACED_FEATURE = PlacementUtils.register("the_scorched_wastelands:junkpile", CONFIGURED_FEATURE,
-				List.of(CountPlacement.of(15), InSquarePlacement.spread(), HeightRangePlacement.uniform(VerticalAnchor.absolute(40), VerticalAnchor.absolute(125)), BiomeFilter.biome()));
+				List.of(CountPlacement.of(15), InSquarePlacement.spread(), HeightRangePlacement.uniform(VerticalAnchor.absolute(25), VerticalAnchor.absolute(200)), BiomeFilter.biome()));
 		return FEATURE;
 	}
 
-	private final Set<ResourceKey<Level>> generate_dimensions = Set.of(Level.OVERWORLD, ResourceKey.create(Registry.DIMENSION_REGISTRY, new ResourceLocation("the_scorched_wastelands:testdimension")));
+	private final Set<ResourceKey<Level>> generate_dimensions = Set.of(ResourceKey.create(Registry.DIMENSION_REGISTRY, new ResourceLocation("the_scorched_wastelands:scorched")));
 
 	public JunkpileFeature() {
 		super(OreConfiguration.CODEC);

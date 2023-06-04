@@ -1,0 +1,129 @@
+{
+  "_fv": 39,
+  "_type": "biome",
+  "definition": {
+    "name": "Scorched mid plains",
+    "groundBlock": {
+      "value": "CUSTOM:RedDrySand"
+    },
+    "undergroundBlock": {
+      "value": "CUSTOM:RedDrySand"
+    },
+    "underwaterBlock": {
+      "value": "CUSTOM:Junkpile"
+    },
+    "airColor": {
+      "value": -3591664,
+      "falpha": 0.0
+    },
+    "grassColor": {
+      "value": -6730970,
+      "falpha": 0.0
+    },
+    "foliageColor": {
+      "value": -6730970,
+      "falpha": 0.0
+    },
+    "waterColor": {
+      "value": -13820928,
+      "falpha": 0.0
+    },
+    "waterFogColor": {
+      "value": -13818862,
+      "falpha": 0.0
+    },
+    "ambientSound": {
+      "value": "CUSTOM:aridloop"
+    },
+    "additionsSound": {
+      "value": "CUSTOM:aridloop"
+    },
+    "music": {
+      "value": "CUSTOM:blizzard"
+    },
+    "moodSound": {
+      "value": "CUSTOM:rarevoices"
+    },
+    "moodSoundDelay": 6000,
+    "spawnParticles": false,
+    "particleToSpawn": {
+      "value": "EXPLOSION_NORMAL"
+    },
+    "particlesProbability": 0.5,
+    "rainingPossibility": 0.0,
+    "temperature": 2.0,
+    "spawnBiome": false,
+    "spawnInCaves": false,
+    "spawnBiomeNether": false,
+    "genTemperature": {
+      "min": -0.5,
+      "max": 0.5
+    },
+    "genHumidity": {
+      "min": -0.5,
+      "max": 0.5
+    },
+    "genContinentalness": {
+      "min": -0.16,
+      "max": 1.0
+    },
+    "genErosion": {
+      "min": -0.5,
+      "max": 0.5
+    },
+    "genWeirdness": {
+      "min": -0.35,
+      "max": 0.35
+    },
+    "grassPerChunk": 0,
+    "seagrassPerChunk": 0,
+    "flowersPerChunk": 0,
+    "mushroomsPerChunk": 0,
+    "bigMushroomsChunk": 0,
+    "sandPatchesPerChunk": 0,
+    "gravelPatchesPerChunk": 0,
+    "reedsPerChunk": 0,
+    "cactiPerChunk": 0,
+    "treesPerChunk": 0,
+    "vanillaTreeType": "Default",
+    "treeType": 0,
+    "minHeight": 7,
+    "treeStem": {
+      "value": ""
+    },
+    "treeBranch": {
+      "value": ""
+    },
+    "treeVines": {
+      "value": ""
+    },
+    "treeFruits": {
+      "value": ""
+    },
+    "spawnStronghold": false,
+    "spawnMineshaft": false,
+    "spawnMineshaftMesa": false,
+    "spawnPillagerOutpost": false,
+    "villageType": "none",
+    "spawnWoodlandMansion": false,
+    "spawnJungleTemple": false,
+    "spawnDesertPyramid": false,
+    "spawnSwampHut": false,
+    "spawnIgloo": false,
+    "spawnOceanMonument": false,
+    "spawnShipwreck": false,
+    "spawnShipwreckBeached": false,
+    "spawnBuriedTreasure": false,
+    "oceanRuinType": "NONE",
+    "spawnNetherBridge": false,
+    "spawnNetherFossil": false,
+    "spawnBastionRemnant": false,
+    "spawnEndCity": false,
+    "spawnRuinedPortal": "NONE",
+    "defaultFeatures": [
+      "Caves",
+      "Ores"
+    ],
+    "spawnEntries": []
+  }
+}

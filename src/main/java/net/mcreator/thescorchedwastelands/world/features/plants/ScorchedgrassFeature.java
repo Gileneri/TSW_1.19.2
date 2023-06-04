@@ -41,7 +41,7 @@ public class ScorchedgrassFeature extends RandomPatchFeature {
 		return FEATURE;
 	}
 
-	private final Set<ResourceKey<Level>> generate_dimensions = Set.of(ResourceKey.create(Registry.DIMENSION_REGISTRY, new ResourceLocation("the_scorched_wastelands:testdimension")));
+	private final Set<ResourceKey<Level>> generate_dimensions = Set.of(ResourceKey.create(Registry.DIMENSION_REGISTRY, new ResourceLocation("the_scorched_wastelands:scorched")));
 
 	public ScorchedgrassFeature() {
 		super(RandomPatchConfiguration.CODEC);

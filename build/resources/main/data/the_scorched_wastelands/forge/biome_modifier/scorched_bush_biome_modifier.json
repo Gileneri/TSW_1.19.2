@@ -1,10 +1,8 @@
 {
   "type": "forge:add_features",
   "biomes": [
-    "the_scorched_wastelands:farmontains",
-    "the_scorched_wastelands:testplains",
-    "the_scorched_wastelands:testplains_3",
-    "the_scorched_wastelands:testplains_2"
+    "the_scorched_wastelands:scorchedlowplains",
+    "the_scorched_wastelands:scorchedmidplains"
   ],
   "features": "the_scorched_wastelands:scorched_bush",
   "step": "vegetal_decoration"

@@ -38,11 +38,11 @@ public class DrydirtFeature extends OreFeature {
 				new OreConfiguration(List.of(OreConfiguration.target(new BlockStateMatchTest(TheScorchedWastelandsModBlocks.DRYROCK.get().defaultBlockState()), TheScorchedWastelandsModBlocks.DRYDIRT.get().defaultBlockState()),
 						OreConfiguration.target(new BlockStateMatchTest(TheScorchedWastelandsModBlocks.RED_DRY_SAND.get().defaultBlockState()), TheScorchedWastelandsModBlocks.DRYDIRT.get().defaultBlockState())), 30));
 		PLACED_FEATURE = PlacementUtils.register("the_scorched_wastelands:drydirt", CONFIGURED_FEATURE,
-				List.of(CountPlacement.of(15), InSquarePlacement.spread(), HeightRangePlacement.uniform(VerticalAnchor.absolute(50), VerticalAnchor.absolute(128)), BiomeFilter.biome()));
+				List.of(CountPlacement.of(15), InSquarePlacement.spread(), HeightRangePlacement.uniform(VerticalAnchor.absolute(20), VerticalAnchor.absolute(200)), BiomeFilter.biome()));
 		return FEATURE;
 	}
 
-	private final Set<ResourceKey<Level>> generate_dimensions = Set.of(Level.OVERWORLD, ResourceKey.create(Registry.DIMENSION_REGISTRY, new ResourceLocation("the_scorched_wastelands:testdimension")));
+	private final Set<ResourceKey<Level>> generate_dimensions = Set.of(ResourceKey.create(Registry.DIMENSION_REGISTRY, new ResourceLocation("the_scorched_wastelands:scorched")));
 
 	public DrydirtFeature() {
 		super(OreConfiguration.CODEC);

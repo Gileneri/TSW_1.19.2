@@ -42,7 +42,7 @@ public class FearthesunProcedure {
 	private static void execute(@Nullable Event event, LevelAccessor world, Entity entity) {
 		if (entity == null)
 			return;
-		if ((ResourceKey.create(Registry.DIMENSION_REGISTRY, new ResourceLocation("the_scorched_wastelands:testdimension"))) == (entity.level.dimension())) {
+		if ((ResourceKey.create(Registry.DIMENSION_REGISTRY, new ResourceLocation("the_scorched_wastelands:scorched"))) == (entity.level.dimension())) {
 			if (!(entity instanceof LivingEntity _livEnt ? _livEnt.hasEffect(TheScorchedWastelandsModMobEffects.HOT_TEMPERATURE.get()) : false)
 					&& !((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.CHEST) : ItemStack.EMPTY).getItem() == TheScorchedWastelandsModItems.COOLINGEPP_CHESTPLATE.get())) {
 				if (!(entity instanceof LivingEntity _livEnt ? _livEnt.hasEffect(TheScorchedWastelandsModMobEffects.EXTREME_HEAT.get()) : false)) {

@@ -46,8 +46,8 @@ public class NewmusicmethodProcedure {
 			return;
 		if (entity.getPersistentData().getBoolean("kickstart") == true && entity.getPersistentData().getBoolean("punchstop") == false) {
 			entity.getPersistentData().putBoolean("kickstart", (false));
-			if ((entity.level.dimension()) == (ResourceKey.create(Registry.DIMENSION_REGISTRY, new ResourceLocation("the_scorched_wastelands:testdimension")))) {
-				if ((entity.level.dimension()) == (ResourceKey.create(Registry.DIMENSION_REGISTRY, new ResourceLocation("the_scorched_wastelands:testdimension")))) {
+			if ((entity.level.dimension()) == (ResourceKey.create(Registry.DIMENSION_REGISTRY, new ResourceLocation("the_scorched_wastelands:scorched")))) {
+				if ((entity.level.dimension()) == (ResourceKey.create(Registry.DIMENSION_REGISTRY, new ResourceLocation("the_scorched_wastelands:scorched")))) {
 					if (entity.getPersistentData().getDouble("pbtimeinsec") > 0) {
 						entity.getPersistentData().putDouble("pbtimeinsec", (entity.getPersistentData().getDouble("pbtimeinsec") - 1));
 					} else if (entity.getPersistentData().getDouble("pbtimeinsec") == 0) {
@@ -61,7 +61,7 @@ public class NewmusicmethodProcedure {
 						entity.getPersistentData().putDouble("pbtimeinmin", 1);
 						entity.getPersistentData().putDouble("pbtimeinsec", 3);
 					}
-				} else if (!((entity.level.dimension()) == (ResourceKey.create(Registry.DIMENSION_REGISTRY, new ResourceLocation("the_scorched_wastelands:testdimension")))) && entity.getPersistentData().getDouble("pbtimeinsec") > 0) {
+				} else if (!((entity.level.dimension()) == (ResourceKey.create(Registry.DIMENSION_REGISTRY, new ResourceLocation("the_scorched_wastelands:scorched")))) && entity.getPersistentData().getDouble("pbtimeinsec") > 0) {
 					if (world instanceof ServerLevel _level)
 						_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
 								("stopsound " + entity.getDisplayName().getString() + " " + "ambient" + " " + "thescorchedwastelands:blizzard"));
@@ -70,7 +70,7 @@ public class NewmusicmethodProcedure {
 			}
 			if ((TheScorchedWastelandsModVariables.WorldVariables.get(world).dj).equals(entity.getDisplayName().getString())) {
 				TheScorchedWastelandsMod.queueServerWork(20, () -> {
-					if ((entity.level.dimension()) == (ResourceKey.create(Registry.DIMENSION_REGISTRY, new ResourceLocation("the_scorched_wastelands:testdimension")))) {
+					if ((entity.level.dimension()) == (ResourceKey.create(Registry.DIMENSION_REGISTRY, new ResourceLocation("the_scorched_wastelands:scorched")))) {
 						if (entity.getPersistentData().getDouble("timeinsec") > 0) {
 							entity.getPersistentData().putDouble("timeinsec", (entity.getPersistentData().getDouble("timeinsec") - 1));
 							TheScorchedWastelandsModVariables.WorldVariables.get(world).jukeboxtimer = entity.getPersistentData().getDouble("timeinsec");

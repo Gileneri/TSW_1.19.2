@@ -1,0 +1,9 @@
+{
+  "parent": "the_scorched_wastelands:custom/basic_toilet",
+  "textures": {
+    "all": "the_scorched_wastelands:blocks/basic_toilet",
+    "particle": "the_scorched_wastelands:blocks/basic_toilet",
+    "0": "the_scorched_wastelands:blocks/basic_toilet"
+  },
+  "render_type": "translucent"
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "the_scorched_wastelands:custom/scorched_tires",
+  "textures": {
+    "all": "the_scorched_wastelands:blocks/scorched_tires",
+    "particle": "the_scorched_wastelands:blocks/scorched_tires",
+    "0": "the_scorched_wastelands:blocks/scorched_tires"
+  },
+  "render_type": "solid"
+}
