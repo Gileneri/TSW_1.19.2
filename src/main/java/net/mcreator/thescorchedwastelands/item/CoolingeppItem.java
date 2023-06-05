@@ -2,18 +2,30 @@
 package net.mcreator.thescorchedwastelands.item;
 
 import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.client.extensions.common.IClientItemExtensions;
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ArmorMaterial;
 import net.minecraft.world.item.ArmorItem;
+import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.client.model.geom.ModelPart;
+import net.minecraft.client.model.HumanoidModel;
+import net.minecraft.client.Minecraft;
 
 import net.mcreator.thescorchedwastelands.init.TheScorchedWastelandsModTabs;
+import net.mcreator.thescorchedwastelands.client.model.Modelcold_epp;
+
+import java.util.function.Consumer;
+import java.util.Map;
+import java.util.Collections;
 
 public abstract class CoolingeppItem extends ArmorItem {
 	public CoolingeppItem(EquipmentSlot slot, Item.Properties properties) {
@@ -66,8 +78,26 @@ public abstract class CoolingeppItem extends ArmorItem {
 		}
 
 		@Override
+		public void initializeClient(Consumer<IClientItemExtensions> consumer) {
+			consumer.accept(new IClientItemExtensions() {
+				@Override
+				@OnlyIn(Dist.CLIENT)
+				public HumanoidModel getHumanoidArmorModel(LivingEntity living, ItemStack stack, EquipmentSlot slot, HumanoidModel defaultModel) {
+					HumanoidModel armorModel = new HumanoidModel(new ModelPart(Collections.emptyList(), Map.of("body", new Modelcold_epp(Minecraft.getInstance().getEntityModels().bakeLayer(Modelcold_epp.LAYER_LOCATION)).body, "left_arm",
+							new Modelcold_epp(Minecraft.getInstance().getEntityModels().bakeLayer(Modelcold_epp.LAYER_LOCATION)).arms1, "right_arm",
+							new Modelcold_epp(Minecraft.getInstance().getEntityModels().bakeLayer(Modelcold_epp.LAYER_LOCATION)).arms2, "head", new ModelPart(Collections.emptyList(), Collections.emptyMap()), "hat",
+							new ModelPart(Collections.emptyList(), Collections.emptyMap()), "right_leg", new ModelPart(Collections.emptyList(), Collections.emptyMap()), "left_leg", new ModelPart(Collections.emptyList(), Collections.emptyMap()))));
+					armorModel.crouching = living.isShiftKeyDown();
+					armorModel.riding = defaultModel.riding;
+					armorModel.young = living.isBaby();
+					return armorModel;
+				}
+			});
+		}
+
+		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "the_scorched_wastelands:textures/entities/testetest.png";
+			return "the_scorched_wastelands:textures/entities/cold_epp.png";
 		}
 	}
 }

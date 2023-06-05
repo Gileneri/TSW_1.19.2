@@ -2641,6 +2641,74 @@
         ]
       },
       "path": "~/ScorchedCityObjects"
+    },
+    {
+      "name": "Rustyshower",
+      "type": "block",
+      "sortid": 186,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rustyshower",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thescorchedwastelands/block/RustyshowerBlock.java",
+          "src/main/resources/assets/the_scorched_wastelands/models/item/rustyshower.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/rustyshower.json",
+          "src/main/resources/assets/the_scorched_wastelands/blockstates/rustyshower.json"
+        ]
+      },
+      "path": "~/ScorchedCityObjects"
+    },
+    {
+      "name": "Flickeringlightbulb",
+      "type": "block",
+      "sortid": 187,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flickeringlightbulb",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thescorchedwastelands/block/FlickeringlightbulbBlock.java",
+          "src/main/resources/assets/the_scorched_wastelands/models/item/flickeringlightbulb.json",
+          "src/main/resources/assets/the_scorched_wastelands/blockstates/flickeringlightbulb.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/flickeringlightbulb.json"
+        ]
+      },
+      "path": "~/ScorchedCityObjects"
+    },
+    {
+      "name": "Scorchedtires",
+      "type": "block",
+      "sortid": 188,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scorchedtires",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_scorched_wastelands/models/block/scorchedtires.json",
+          "src/main/java/net/mcreator/thescorchedwastelands/block/ScorchedtiresBlock.java",
+          "src/main/resources/assets/the_scorched_wastelands/models/item/scorchedtires.json",
+          "src/main/resources/assets/the_scorched_wastelands/blockstates/scorchedtires.json"
+        ]
+      },
+      "path": "~/ScorchedCityObjects"
+    },
+    {
+      "name": "Color",
+      "type": "block",
+      "sortid": 189,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "color",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thescorchedwastelands/block/ColorBlock.java",
+          "src/main/resources/assets/the_scorched_wastelands/blockstates/color.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/color.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/item/color.json"
+        ]
+      },
+      "path": "~/ScorchedCityBlocks"
     }
   ],
   "variable_elements": [
@@ -2805,8 +2873,8 @@
       "block.the_scorched_wastelands.wreckedcrate": "Wrecked crate",
       "block.the_scorched_wastelands.wreckedvent": "Wrecked Vent",
       "block.the_scorched_wastelands.sign_pole": "Sign Pole",
-      "block.the_scorched_wastelands.rustydoublecabinet": "Rusted double cabinet",
       "block.the_scorched_wastelands.bar_support": "Bar Support",
+      "block.the_scorched_wastelands.rustydoublecabinet": "Rusted double cabinet",
       "block.the_scorched_wastelands.metalsheets": "Metal sheets",
       "block.the_scorched_wastelands.papers": "Old news papers",
       "block.the_scorched_wastelands.dustywirebox": "Dusty wire box",
@@ -2826,7 +2894,9 @@
       "subtitles.crystal_exploration_2": "",
       "block.the_scorched_wastelands.rustymetalplaqueslab": "Rusty metal plaque slab",
       "subtitles.crystal_exploration_1": "",
+      "block.the_scorched_wastelands.scorchedtires": "Scorched tires",
       "block.the_scorched_wastelands.dustywood": "Dustywood",
+      "block.the_scorched_wastelands.color": "Color",
       "subtitles.junkfootstep": "junkfootstep",
       "block.the_scorched_wastelands.scorched_bush": "Scorched Bush",
       "block.the_scorched_wastelands.bigbrokendrawer": "Big broken drawer",
@@ -2936,6 +3006,7 @@
       "effect.hot_temperature": "Hot Temperature",
       "block.the_scorched_wastelands.brokensmalldrawer": "Broken small drawer",
       "block.the_scorched_wastelands.rustycabinet": "Rusted cabinet",
+      "block.the_scorched_wastelands.rustyshower": "Rusty shower",
       "block.the_scorched_wastelands.makeshiftmetalsheets": "Makeshift metal sheets",
       "block.the_scorched_wastelands.rustywall": "Rusty metal wall",
       "subtitles.blizzard": "",
@@ -2948,6 +3019,7 @@
       "block.the_scorched_wastelands.debrisslab": "Debris slab",
       "block.the_scorched_wastelands.junkpile": "Junk pile",
       "item.the_scorched_wastelands.coolingepp_helmet": "a",
+      "block.the_scorched_wastelands.flickeringlightbulb": "Flickering lightbulb",
       "block.the_scorched_wastelands.scorched_debris": "Scorched Debris",
       "block.the_scorched_wastelands.rustymetalplaquestairs": "Rusty metal plaque stairs",
       "block.the_scorched_wastelands.brokentrafficpole": "Broken traffic pole"

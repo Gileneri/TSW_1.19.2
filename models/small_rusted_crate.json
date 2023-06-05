@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [128, 128],
 	"textures": {
-		"0": "Smallrustycrate",
-		"particle": "Smallrustycrate"
+		"0": "smallrustycrate",
+		"particle": "smallrustycrate"
 	},
 	"elements": [
 		{
@@ -307,18 +307,67 @@
 			}
 		}
 	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 0.5, 0],
+			"scale": [0.08984, 0.08203, 0.08594]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, 0.75, 0],
+			"scale": [0.08789, 0.08008, 0.08398]
+		},
+		"firstperson_righthand": {
+			"rotation": [-5.25, 28, 0],
+			"scale": [0.82813, 0.49609, 0.44141]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 26.25, 0],
+			"translation": [2.75, 1.25, 0],
+			"scale": [0.82617, 0.75977, 0.54102]
+		},
+		"ground": {
+			"translation": [0, -1.75, 0],
+			"scale": [0.24414, 0.25391, 0.23438]
+		},
+		"gui": {
+			"rotation": [179.5, 62.25, -180],
+			"translation": [0, -3, 0],
+			"scale": [0.79883, 0.61328, 0.43359]
+		},
+		"head": {
+			"translation": [0, 14.25, 0.5]
+		},
+		"fixed": {
+			"translation": [-1, 0, 0.5],
+			"scale": [0.63672, 0.57227, 0.4668]
+		}
+	},
 	"groups": [
 		{
 			"name": "group",
 			"origin": [8, 8, 8],
 			"color": 0,
-			"children": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
-		},
-		{
-			"name": "group",
-			"origin": [8, 8, 8],
-			"color": 0,
-			"children": [13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24]
+			"children": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				{
+					"name": "group",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"children": [13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24]
+				}
+			]
 		}
 	]
 }

@@ -2,6 +2,7 @@
 package net.mcreator.thescorchedwastelands.block;
 
 import net.minecraft.world.level.storage.loot.LootContext;
+import net.minecraft.world.level.material.MaterialColor;
 import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
@@ -18,7 +19,7 @@ import java.util.Collections;
 
 public class GrayplatedmetalBlock extends Block {
 	public GrayplatedmetalBlock() {
-		super(BlockBehaviour.Properties.of(Material.METAL).sound(SoundType.METAL).strength(1f, 2f).requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of(Material.METAL, MaterialColor.DIRT).sound(SoundType.METAL).strength(1f, 2f).requiresCorrectToolForDrops());
 	}
 
 	@Override

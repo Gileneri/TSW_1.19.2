@@ -4,6 +4,7 @@ package net.mcreator.thescorchedwastelands.block;
 import net.minecraftforge.common.IPlantable;
 
 import net.minecraft.world.level.storage.loot.LootContext;
+import net.minecraft.world.level.material.MaterialColor;
 import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.block.state.properties.DirectionProperty;
 import net.minecraft.world.level.block.state.StateDefinition;
@@ -27,7 +28,7 @@ public class DrydirtBlock extends Block {
 	public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
 
 	public DrydirtBlock() {
-		super(BlockBehaviour.Properties.of(Material.DIRT).sound(SoundType.GRAVEL).strength(1f));
+		super(BlockBehaviour.Properties.of(Material.DIRT, MaterialColor.TERRACOTTA_BROWN).sound(SoundType.GRAVEL).strength(1f));
 		this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH));
 	}
 

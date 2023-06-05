@@ -14,7 +14,7 @@
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
-    "itemTexture": "scorchedcitycrateicon",
+    "itemTexture": "",
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,
@@ -24,10 +24,10 @@
     "disableOffset": false,
     "boundingBoxes": [
       {
-        "mx": 0.0,
+        "mx": -3.0,
         "my": 0.0,
-        "mz": 0.0,
-        "Mx": 21.0,
+        "mz": 2.0,
+        "Mx": 19.0,
         "My": 24.0,
         "Mz": 21.0,
         "subtract": false

@@ -2675,6 +2675,40 @@
         ]
       },
       "path": "~/ScorchedCityObjects"
+    },
+    {
+      "name": "Scorchedtires",
+      "type": "block",
+      "sortid": 188,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scorchedtires",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_scorched_wastelands/models/block/scorchedtires.json",
+          "src/main/java/net/mcreator/thescorchedwastelands/block/ScorchedtiresBlock.java",
+          "src/main/resources/assets/the_scorched_wastelands/models/item/scorchedtires.json",
+          "src/main/resources/assets/the_scorched_wastelands/blockstates/scorchedtires.json"
+        ]
+      },
+      "path": "~/ScorchedCityObjects"
+    },
+    {
+      "name": "Color",
+      "type": "block",
+      "sortid": 189,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "color",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thescorchedwastelands/block/ColorBlock.java",
+          "src/main/resources/assets/the_scorched_wastelands/blockstates/color.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/block/color.json",
+          "src/main/resources/assets/the_scorched_wastelands/models/item/color.json"
+        ]
+      },
+      "path": "~/ScorchedCityBlocks"
     }
   ],
   "variable_elements": [
@@ -2839,8 +2873,8 @@
       "block.the_scorched_wastelands.wreckedcrate": "Wrecked crate",
       "block.the_scorched_wastelands.wreckedvent": "Wrecked Vent",
       "block.the_scorched_wastelands.sign_pole": "Sign Pole",
-      "block.the_scorched_wastelands.rustydoublecabinet": "Rusted double cabinet",
       "block.the_scorched_wastelands.bar_support": "Bar Support",
+      "block.the_scorched_wastelands.rustydoublecabinet": "Rusted double cabinet",
       "block.the_scorched_wastelands.metalsheets": "Metal sheets",
       "block.the_scorched_wastelands.papers": "Old news papers",
       "block.the_scorched_wastelands.dustywirebox": "Dusty wire box",
@@ -2860,7 +2894,9 @@
       "subtitles.crystal_exploration_2": "",
       "block.the_scorched_wastelands.rustymetalplaqueslab": "Rusty metal plaque slab",
       "subtitles.crystal_exploration_1": "",
+      "block.the_scorched_wastelands.scorchedtires": "Scorched tires",
       "block.the_scorched_wastelands.dustywood": "Dustywood",
+      "block.the_scorched_wastelands.color": "Color",
       "subtitles.junkfootstep": "junkfootstep",
       "block.the_scorched_wastelands.scorched_bush": "Scorched Bush",
       "block.the_scorched_wastelands.bigbrokendrawer": "Big broken drawer",
